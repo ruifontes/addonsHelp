@@ -11,23 +11,23 @@ addon_info = {
 	# for previously unpublished addons, please follow the community guidelines at:
 	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
 	# add-on Name, internal for nvda
-	"addon_name" : "wordCount",
+	"addon_name" : "addonsHelp",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on to be shown on installation and add-on information.
-	"addon_summary" : _("Addon Word count"),
+	"addon_summary" : _("Addon Addons help"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon_description" : _("""Count the words of the selected text when you select some text and press NVDA control w."""),
+	"addon_description" : _("""This add-on provides a quick way to access help for the extras you have installed by grouping the help documentation for all the extras in the NVDA Help menu in a submenu called "Extras Help"."""),
 	# version
-	"addon_version" : "1.2",
+	"addon_version" : "1.1",
 	# Author(s)
-	"addon_author" : "Rui Fontes <rui.fontes@tiflotecnia.com> and Oriol Gomez <ogomez.s92@gmail.com>",
+	"addon_author" : "Rui Fontes <rui.fontes@tiflotecnia.com>",
 	# URL for the add-on documentation support
-	"addon_url" : "https://github.com/ruifontes/wordCount",
+	"addon_url" : "https://github.com/ruifontes/addonsHelp",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0")
-	"addon_minimumNVDAVersion" : "2017.2.0",
+	"addon_minimumNVDAVersion" : "2017.3.0",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
 	"addon_lastTestedNVDAVersion" : "2019.1.0",
 	# Add-on update channel (default is stable or None)
