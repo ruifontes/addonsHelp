@@ -1,0 +1,9 @@
+h1 {font-family:arial; font-size:16pt; font-weight:bold; text-align:center}
+h2, h3 {font-family:"Times New Roman"; font-size:14pt; font-weight:bold; font-style:italic; text-align:center}
+p {font-family:verdana; font-size:14pt; text-align:justify}
+pre {font-family:verdana; font-size:14pt; text-align:center}
+li, dt {font-family:verdana; font-size:14pt; text-align:left}
+dd {font-family:verdana; font-size:14pt; text-align:right}
+title {font-family:arial: font-weight:bold; font-size:18pt; text-align:center}
+th {font-family:verdana;font-size:14pt;text-align:center;font-weight:bold}
+td {font-family:verdana;font-size:14pt;text-align:center}
