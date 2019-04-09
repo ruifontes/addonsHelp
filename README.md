@@ -19,6 +19,6 @@ The addon groups the help documentation for all the addons in the NVDA Help menu
 * Changed the name of the menu itens to the summary addon to have the name of the menus in the language of the interface, when possible.
 
 ### Version 1.0 ###
-* Initial release of Zougane, Rémy and Abdel updated to be compatible with NVDA 2019.1.
+* Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
-[1]: https://www.tiflotecnia.net/ajudaExtras.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/1.1/addonsHelp-1.1.nvda-addon

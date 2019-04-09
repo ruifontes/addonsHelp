@@ -21,4 +21,4 @@ O extra agrupa a documentação de ajuda de todos os extras no menu Ajuda do NVD
 ### Versão 1.0 ###
 *	 Versão inicial de Zougane, Rémy e Abdel actualizada para ser compatível com NVDA 2019.1.
 
-[1]: https://www.tiflotecnia.net/ajudaExtras.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/1.1/addonsHelp-1.1.nvda-addon
