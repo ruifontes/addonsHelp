@@ -1,5 +1,5 @@
-﻿#-*- coding:utf-8 -*-
-# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel
+﻿# -*- coding:utf-8 -*-
+# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel
 # This file is covered by the GNU General Public License.
 
 # import the necessary modules.
