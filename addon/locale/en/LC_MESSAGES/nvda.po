@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: addonsHelp-1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2019-04-09 20:53+0100\n"
-"PO-Revision-Date: 2019-04-09 21:07+0100\n"
+"PO-Revision-Date: 2019-04-09 21:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: Equipa portuguesa do NVDA\n"
 "Language: pt_PT\n"
@@ -18,10 +18,8 @@ msgstr ""
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 #: buildVars.py:17
-#, fuzzy
-#| msgid "Addons &help"
 msgid "Menu for Addons help"
-msgstr "&ajuda dos extras"
+msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -31,6 +29,3 @@ msgid ""
 "installed by grouping the help documentation for all the addons in the NVDA "
 "Help menu in a submenu called \"Addons Help\"."
 msgstr ""
-"Este extra fornece uma forma rápida de aceder à ajuda dos extras instalados "
-"agrupando a documentação de ajuda de todos os extras no menu Ajuda do NVDA, "
-"num submenu chamado \"Ajuda dos extras\"."

@@ -1,9 +1,6 @@
-﻿# coding=utf-8
-# The line above is used to define the character encoding.
-
-# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>
+﻿#-*- coding:utf-8 -*-
+# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel
 # This file is covered by the GNU General Public License.
-# Taking care of licensing
 
 # import the necessary modules.
 import globalPluginHandler
