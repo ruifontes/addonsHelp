@@ -1,16 +1,13 @@
-﻿# -*- coding:utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 # Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel
 # This file is covered by the GNU General Public License.
 
 # import the necessary modules.
 import globalPluginHandler
-import os
 import addonHandler
 import gui
 import wx
-import globalVars
-_curAddon = addonHandler.getCodeAddon()
-_addonSummary = _curAddon.manifest['summary']
+from . import webBrowser
 
 # For translation
 addonHandler.initTranslation()
@@ -25,10 +22,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.createSubMenu()
 
 	def createSubMenu(self):
-		# Creation of a self.helpMenu object that will point to the NVDA Help menu and create our own submenu, _addonSummary.
+		# Creation of a self.helpMenu object that will point to the NVDA Help menu and create our own submenu
 		self.hlpMenu = gui.mainFrame.sysTrayIcon.helpMenu
 		menu = wx.Menu()
-		self.addonHelpMenu = self.hlpMenu.AppendSubMenu(menu, "{arg0}".format(arg0 = _addonSummary))
+		self.addonHelpMenu = self.hlpMenu.AppendSubMenu(menu, _("&Add-ons help"))
 		# Filter only those addons that have help documentation.
 		addonsList = [item for item in addonHandler.getAvailableAddons() if item.getDocFilePath()]
 		# If our list contains any elements.
@@ -48,5 +45,5 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def onOpenHelp(self, evt, item):
 		# This is the function that will handle the events of our submenus.
-		# Opens the help of our addon.
-		os.startfile(item.getDocFilePath())
+		# Opens the help of our addon on default browser.
+		webBrowser.open(item.getDocFilePath())

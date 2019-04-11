@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: addonsHelp-1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2019-04-09 20:53+0100\n"
-"PO-Revision-Date: 2019-04-09 21:39+0100\n"
+"POT-Creation-Date: 2019-04-11 01:10+0100\n"
+"PO-Revision-Date: 2019-04-11 01:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: Equipa portuguesa do NVDA\n"
 "Language: pt_PT\n"
@@ -11,23 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: ../../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-SearchPath-0: D:/addonsHelp/globalPlugins\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: addon/globalPlugins/addonsHelp/__init__.py:28
+msgid "&Add-ons help"
+msgstr "&Ajuda dos extras"
+
 #: buildVars.py:17
-msgid "Menu for Addons help"
+msgid "Menu for Add-ons help"
 msgstr "Menu Ajuda dos extras"
 
-#. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:20
 msgid ""
-"This addon provides a quick way to access help for the addons you have "
-"installed by grouping the help documentation for all the addons in the NVDA "
-"Help menu in a submenu called \"Addons Help\"."
+"This add-on provides a quick way to access help for the add-ons you have "
+"installed by grouping the help documentation for all the add-ons in the NVDA "
+"Help menu in a submenu called \"Add-ons Help\"."
 msgstr ""
 "Este extra fornece uma forma rápida de aceder à ajuda dos extras instalados "
 "agrupando a documentação de ajuda de todos os extras no menu Ajuda do NVDA, "

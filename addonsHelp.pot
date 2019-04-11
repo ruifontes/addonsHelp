@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: addonsHelp 1.1\n"
+"Project-Id-Version: addonsHelp 1.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2019-04-09 21:33+0100\n"
+"POT-Creation-Date: 2019-04-11 01:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+		# Comment for translators: Name of the submenu.
+#. Translators: Name of the submenu.
+#: addon/globalPlugins/addonsHelp/__init__.py:28
+msgid "&Add-ons help"
+msgstr ""
+
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 #: buildVars.py:17
-msgid "Menu for Addons help"
+msgid "Menu for Add-ons help"
 msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:20
 msgid ""
-"This addon provides a quick way to access help for the addons you have "
-"installed by grouping the help documentation for all the addons in the NVDA "
-"Help menu in a submenu called \"Addons Help\"."
+"This add-on provides a quick way to access help for the add-ons you have "
+"installed by grouping the help documentation for all the add-ons in the NVDA "
+"Help menu in a submenu called \"Add-ons Help\"."
 msgstr ""
