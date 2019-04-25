@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""This add-on provides a quick way to access help for the add-ons you have installed by grouping the help documentation for all the add-ons in the NVDA Help menu in a submenu called "Add-ons Help"."""),
 	# version
-	"addon_version" : "1.2",
+	"addon_version" : "2.0-dev",
 	# Author(s)
 	"addon_author" : "Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel",
 	# URL for the add-on documentation support
