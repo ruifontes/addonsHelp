@@ -1,13 +1,15 @@
 ﻿# -*- coding: utf-8 -*-
+
 # Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel
 # This file is covered by the GNU General Public License.
 
 # import the necessary modules.
 import globalPluginHandler
+import inputCore
 import addonHandler
 import gui
 import wx
-from . import webBrowser
+import webbrowser
 
 # For translation
 addonHandler.initTranslation()
@@ -22,28 +24,129 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.createSubMenu()
 
 	def createSubMenu(self):
-		# Creation of a self.helpMenu object that will point to the NVDA Help menu and create our own submenu
+		# Creation of a self.hlpMenu object that will point to the NVDA Help menu and create our own submenu
 		self.hlpMenu = gui.mainFrame.sysTrayIcon.helpMenu
 		menu = wx.Menu()
 		self.addonHelpMenu = self.hlpMenu.AppendSubMenu(menu, _("&Add-ons help"))
 		# Filter only those addons that have help documentation.
-		addonsList = [item for item in addonHandler.getAvailableAddons() if item.getDocFilePath()]
+		addonsList = [item for item in addonHandler.getAvailableAddons() if item.getDocFilePath() and not item.isDisabled]
 		# If our list contains any elements.
 		if len(addonsList) > 0:
+			# Add the sub-menu that will list the descriptions of the scripts contained in our add-ons.
+			addonsCommands = menu.Append(wx.ID_ANY,
+			# Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+			_("Add-ons &commands"),
+			# Translators: Displays the description of the commands contained in each installed add-on.
+			_("Description of the scripts contained in each add-on"))
+
+			# Associate a event to this menu 
+			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event: self.onOpenDoc(event), addonsCommands)
+
 			# Add our items in loop in our new submenu, each one with the name of the corresponding addon.
 			for item in addonsList:
-				newSubMenu = menu.Append(wx.ID_ANY, item.manifest["summary"])
+				newSubMenu = menu.Append(wx.ID_ANY, "&" + item.manifest["summary"])
 				# Associate the events in each menu item with the self.onOpenHelp function.
 				gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event, args=item: self.onOpenHelp(event, args), newSubMenu)
+
+	def adjustGesture (self, identifier):
+		"""
+		This method corrects the gestures provided as parameter, inspired from the NVDA core (module gui/settingsDialog.py, class InputGesturesDialog, method _formatGesture).
+		"""
+		try:
+			source, main = inputCore.getDisplayTextForGestureIdentifier(identifier)
+			return _("{main} ({source})").format(main=main, source=source)
+		except LookupError:
+			return identifier
+
+	def updateAddonDic (self, addonDic):
+		"""
+		This method makes it possible to create a dictionary grouping all the add-ons that contain scripts associated or not with gestures.
+		"""
+		import addonHandler
+		# We gather all the gestures available in a dictionary, thanks to inputCore.manager.getAllGestureMappings.
+		allGest = inputCore.manager.getAllGestureMappings(obj=gui.mainFrame.prevFocus, ancestors=gui.mainFrame.prevFocusAncestors)
+
+		# We Iterates through the dictionary containing all the available gestures.
+		for category in allGest:
+			# We create a local variable, storing the value of each of the main items in our dictionary.
+			command = allGest[category]
+			# These items represent the different categories available.
+			# The values retrieved by allGest[category], in turn comprise another dictionary grouping the description of each of the scripts in each category.
+			# We Iterates among the dictionary objects for each of the categories.
+			for doc in command:
+			# Each item of its sub-dictionaries represents the documentation of each of the scripts, which is why it was preferably named doc.
+			# We now create a local variable script, which will retrieve each of the values of our sub-dictionary.
+					script = command[doc]
+					# each of its values is an instance of the inputCore.AllGesturesScriptInfo class for each of the scripts.
+					# It's an object representing a script, which is why it was preferably named script.
+					# We check if our script is that of an add-on, we will make further checks below.
+					if script.moduleName.startswith("globalPlugins") or script.moduleName.startswith("appModules"):
+						# The moduleName property of each of these script objects returns the name of the module that contains the script.
+						# Now, it's going to be a bit complicated.
+						# We point to the script object directly in the appModule or globalPlugin, to check its path.
+						sObject = getattr (script.cls, "script_{scriptName}".format (scriptName=script.scriptName), None)
+						if sObject:
+							# Here is the path to the module, it will be interesting, because it's it that will reveal if it's an add-on or not.
+							pth=sObject.im_func.func_code.co_filename
+							# This is the only way we have to retrieve the name of the add-on.
+							# We check the presence of the "addons" directory in the path.
+							if "addons" in pth:
+								# There is no longer any doubt, it's an add-on.
+								segPth = pth.split("\\")
+								# We get the name of the add-on.
+								addonName = segPth[segPth.index("addons")+1]
+								# We get the summary of our add-on.
+								addonSum = [addon.manifest['summary'] for addon in addonHandler.getAvailableAddons() if addon.manifest['name'] == addonName][0]
+								# We check the gesture (s) of our script.
+								if len (script.gestures) > 0:
+									gestInfo = " | ".join ([self.adjustGesture (x) for x in script.gestures])
+								else:
+									gestInfo = _("Not assigned to gesture or part of layered commands")
+								# We try to update our dictionary addonDic, according to whether it has taken knowledge of each item or not.
+								try:
+									addonDic[addonSum][gestInfo]=script.displayName
+								except KeyError:
+									# It has not yet read it, so we create the very first sub-dictionary representing each of our scripts contained in each of our add-ons.
+									addonDic[addonSum]={}
+									# We can now make our update.
+									addonDic[addonSum][gestInfo]=script.displayName
+								# The following line given by Cyrille on the nvda-addons mailing list should work but gives me this error ("accRole failed: (-2147024809, 'Param\xe8tre incorrect.', (None, None, None, 0, None))
+								#addonDic.get(addonSum, {})[gestInfo]=script.displayName
 
 	def terminate(self):
 		# This terminate function is necessary when creating new menus.
 		try:
-			self.helpMenu.RemoveItem(self.addonHelpMenu)
-		except wx.PyDeadObjectError:
+			if wx.version().startswith("4"):
+				self.hlpMenu.Remove(self.addonHelpMenu)
+			else:
+				self.hlpMenu.RemoveItem(self.addonHelpMenu)
+		except:
 			pass
 
 	def onOpenHelp(self, evt, item):
 		# This is the function that will handle the events of our submenus.
 		# Opens the help of our addon on default browser.
-		webBrowser.open(item.getDocFilePath())
+		webbrowser.open(item.getDocFilePath())
+
+	def onOpenDoc (self, evt):
+		# This is the function that will handle the events of "add-ons commands"submenu. 
+		import ui
+		addonDic = {}
+		self.updateAddonDic (addonDic)
+		message = ""
+		for addon in sorted(addonDic, key = lambda item: item.lower()):
+			message += u"<h2>{addonSum}</h2>\n<table>\n<tr><th>".format(addonSum=addon)
+			# Translators: The title of the column containing the gestures of each script to describe.
+			message += _("Gestures")
+			message += "</th><th>"
+			#Translators: The title of the column containing the documentation of each of the scripts.
+			message += _("Documentation")
+			message += "</th></tr>\n"
+			script = addonDic[addon]
+			for gesture in sorted(script):
+				message += u"<tr><td>{gesture}</td><td>{doc}</td></tr>\n".format (gesture=gesture, doc = script[gesture])
+			message += "</table>\n"
+		ui.browseableMessage (message,
+		# Translators: Title of the Message that contains command descriptions for each add-on.
+		_("List of commands for running add-ons"),
+		True)
