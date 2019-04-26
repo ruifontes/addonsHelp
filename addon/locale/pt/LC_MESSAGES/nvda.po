@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: addonsHelp-1.1\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2019-04-11 01:10+0100\n"
-"PO-Revision-Date: 2019-04-11 01:12+0100\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2019-04-26 17:05+0100\n"
+"PO-Revision-Date: 2019-04-26 23:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: Equipa portuguesa do NVDA\n"
 "Language: pt_PT\n"
@@ -11,24 +11,68 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
-"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: addon/globalPlugins/addonsHelp/__init__.py:28
-msgid "&Add-ons help"
-msgstr "&Ajuda dos extras"
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:30
+msgid "Add-ons &documentation"
+msgstr "Documentação dos &extras"
 
-#: buildVars.py:17
-msgid "Menu for Add-ons help"
-msgstr "Menu Ajuda dos extras"
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:38
+msgid "Add-ons &commands"
+msgstr "&Comandos dos extras"
 
-#: buildVars.py:20
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:40
+msgid "Description of the scripts contained in each add-on"
+msgstr "Descrição dos comandos de cada extra"
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:105
+msgid "Not assigned to gesture or part of layered commands"
+msgstr "Não associado ou comando em camada"
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:138
+msgid "List of commands for running add-ons"
+msgstr "Lista de comandos para os extras em execução"
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:142
+msgid "Documentation"
+msgstr "Descrição"
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:145
+msgid "Gesture"
+msgstr "Comando"
+
+#: addonsHelp/buildVars.py:17
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:150
+msgid "Add-ons documentation"
+msgstr "Documentação dos extras"
+
+#: addonsHelp/addon/installTasks.py:16
 msgid ""
-"This add-on provides a quick way to access help for the add-ons you have "
-"installed by grouping the help documentation for all the add-ons in the NVDA "
-"Help menu in a submenu called \"Add-ons Help\"."
+"You have installed the addonsHelp-1.0 add-on which is incompatible with this "
+"one. The new name of this add-on is addonsHelp. Click OK to update it."
+msgstr ""
+"Tem instalado o extra \"addonsHelp-1.0 que é incompatível com esta versão. O "
+"novo nome deste extra é addonsHelp. Pressione OK para o actualizar."
+
+#: addonsHelp/addon/installTasks.py:18
+msgid "Update confirmation"
+msgstr "Confirmação da actualização"
+
+#: addonsHelp/buildVars.py:20
+msgid ""
+"This add-on provides a quick way to access documentation and commands list "
+"for the add-ons you have installed, by grouping the documentation for "
+"running add-ons in the NVDA Help menu in a submenu called \"Add-ons "
+"documentation\"."
 msgstr ""
 "Este extra fornece uma forma rápida de aceder à ajuda dos extras instalados "
 "agrupando a documentação de ajuda de todos os extras no menu Ajuda do NVDA, "
 "num submenu chamado \"Ajuda dos extras\"."
+
+#~ msgid "Add-ons help menu"
+#~ msgstr "Menu de Ajuda dos extras"
+
+#~ msgid "Menu for Add-ons help"
+#~ msgstr "Menu Ajuda dos extras"

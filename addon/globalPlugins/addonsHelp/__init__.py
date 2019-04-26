@@ -1,6 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-
-# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel
+# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Abdel, Zougane and Remy
 # This file is covered by the GNU General Public License.
 
 # import the necessary modules.
@@ -27,7 +26,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Creation of a self.hlpMenu object that will point to the NVDA Help menu and create our own submenu
 		self.hlpMenu = gui.mainFrame.sysTrayIcon.helpMenu
 		menu = wx.Menu()
-		self.addonHelpMenu = self.hlpMenu.AppendSubMenu(menu, _("&Add-ons help"))
+		# Translators: Label of our sub-menu.
+		self.addonHelpMenu = self.hlpMenu.AppendSubMenu(menu, _("Add-ons &documentation"))
 		# Filter only those addons that have help documentation.
 		addonsList = [item for item in addonHandler.getAvailableAddons() if item.getDocFilePath() and not item.isDisabled]
 		# If our list contains any elements.
@@ -96,11 +96,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 								# We get the name of the add-on.
 								addonName = segPth[segPth.index("addons")+1]
 								# We get the summary of our add-on.
-								addonSum = [addon.manifest['summary'] for addon in addonHandler.getAvailableAddons() if addon.manifest['name'] == addonName][0]
+								addonSum = [addon.manifest['summary'] for addon in addonHandler.getAvailableAddons() if addon.manifest['name'] == addonName][]
 								# We check the gesture (s) of our script.
 								if len (script.gestures) > 0:
 									gestInfo = " | ".join ([self.adjustGesture (x) for x in script.gestures])
 								else:
+									# Translators: Message to inform there are no command assigned.
 									gestInfo = _("Not assigned to gesture or part of layered commands")
 								# We try to update our dictionary addonDic, according to whether it has taken knowledge of each item or not.
 								try:
@@ -133,20 +134,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		import ui
 		addonDic = {}
 		self.updateAddonDic (addonDic)
-		message = ""
+		# Translators: Name of the list.
+		message = u"<h1>{title}</h1><br>".format(title=_("List of commands for running add-ons"))
 		for addon in sorted(addonDic, key = lambda item: item.lower()):
 			message += u"<h2>{addonSum}</h2>\n<table>\n<tr><th>".format(addonSum=addon)
-			# Translators: The title of the column containing the gestures of each script to describe.
-			message += _("Gestures")
-			message += "</th><th>"
 			#Translators: The title of the column containing the documentation of each of the scripts.
 			message += _("Documentation")
+			message += "</th><th>"
+			#Translators: The title of the column containing the command of each of the scripts.
+			message += _("Gesture")
 			message += "</th></tr>\n"
 			script = addonDic[addon]
 			for gesture in sorted(script):
-				message += u"<tr><td>{gesture}</td><td>{doc}</td></tr>\n".format (gesture=gesture, doc = script[gesture])
+				message += u"<tr><td>{doc}</td><td>{gesture}</td></tr>\n".format (doc = script[gesture], gesture=gesture)
 			message += "</table>\n"
 		ui.browseableMessage (message,
-		# Translators: Title of the Message that contains command descriptions for each add-on.
-		_("List of commands for running add-ons"),
+		# Translators: Title of the HTML message.
+		_("Add-ons documentation"),
 		True)

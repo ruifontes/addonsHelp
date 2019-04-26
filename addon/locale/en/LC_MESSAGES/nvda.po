@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: addonsHelp-1.1\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2019-04-11 01:25+0100\n"
-"PO-Revision-Date: 2019-04-11 01:25+0100\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2019-04-26 17:05+0100\n"
+"PO-Revision-Date: 2019-04-26 23:20+0100\n"
 "Last-Translator: \n"
 "Language-Team: Equipa portuguesa do NVDA\n"
 "Language: pt_PT\n"
@@ -15,17 +15,53 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:28
-msgid "&Add-ons help"
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:30
+msgid "Add-ons &documentation"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:38
+msgid "Add-ons &commands"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:40
+msgid "Description of the scripts contained in each add-on"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:105
+msgid "Not assigned to gesture or part of layered commands"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:138
+msgid "List of commands for running add-ons"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:142
+msgid "Documentation"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:145
+msgid "Gesture"
 msgstr ""
 
 #: addonsHelp/buildVars.py:17
-msgid "Menu for Add-ons help"
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:150
+msgid "Add-ons documentation"
+msgstr ""
+
+#: addonsHelp/addon/installTasks.py:16
+msgid ""
+"You have installed the addonsHelp-1.0 add-on which is incompatible with this "
+"one. The new name of this add-on is addonsHelp. Click OK to update it."
+msgstr ""
+
+#: addonsHelp/addon/installTasks.py:18
+msgid "Update confirmation"
 msgstr ""
 
 #: addonsHelp/buildVars.py:20
 msgid ""
-"This add-on provides a quick way to access help for the add-ons you have "
-"installed by grouping the help documentation for all the add-ons in the NVDA "
-"Help menu in a submenu called \"Add-ons Help\"."
+"This add-on provides a quick way to access documentation and commands list "
+"for the add-ons you have installed, by grouping the documentation for "
+"running add-ons in the NVDA Help menu in a submenu called \"Add-ons "
+"documentation\"."
 msgstr ""

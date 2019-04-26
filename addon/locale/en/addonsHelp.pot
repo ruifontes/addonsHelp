@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'wordCount' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'wordCount' '1.4'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2019-04-26 17:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:30
+# Translators: Label of our sub-menu.
+msgid "Add-ons &documentation"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:38
+			# Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+msgid "Add-ons &commands"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:40
+			# Translators: Displays the description of the commands contained in each installed add-on.
+msgid "Description of the scripts contained in each add-on"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:105
+# Translators: Message to inform there are no command assigned.
+msgid "Not assigned to gesture or part of layered commands"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:138
+		# Translators: Name of the list.
+msgid "List of commands for running add-ons"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:142
+			#Translators: The title of the column containing the documentation of each of the scripts.
+msgid "Documentation"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:145
+			#Translators: The title of the column containing the command of each of the scripts.
+msgid "Gesture"
+msgstr ""
+
+#: addonsHelp/buildVars.py:17
+	# Translators: Summary for this add-on to be shown on installation and add-on information.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:150
+		# Translators: Title of the HTML message.
+msgid "Add-ons documentation"
+msgstr ""
+
+#: addonsHelp/addon/installTasks.py:16
+		# Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
+msgid "You have installed the addonsHelp-1.0 add-on which is incompatible with this "
+"one. The new name of this add-on is addonsHelp. Click OK to update it."
+msgstr ""
+
+#: addonsHelp/addon/installTasks.py:18
+		# Translators: The title of the dialogbox.
+msgid "Update confirmation"
+msgstr ""
+
+#: addonsHelp/buildVars.py:20
+# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid "This add-on provides a quick way to access documentation and commands list "
+"for the add-ons you have installed, by grouping the documentation for "
+"running add-ons in the NVDA Help menu in a submenu called \"Add-ons "
+"documentation\"."
+msgstr ""
