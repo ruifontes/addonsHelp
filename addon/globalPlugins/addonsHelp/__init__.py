@@ -26,17 +26,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Creation of a self.hlpMenu object that will point to the NVDA Help menu and create our own submenu
 		self.hlpMenu = gui.mainFrame.sysTrayIcon.helpMenu
 		menu = wx.Menu()
-		# Translators: Label of our sub-menu.
-		self.addonHelpMenu = self.hlpMenu.AppendSubMenu(menu, _("Add-ons &documentation"))
+		#. Translators: Label of our first sub-menu.
+		self.addonHelpSubMenu = self.hlpMenu.AppendSubMenu(menu, _("Running add-ons &documentation"))
 		# Filter only those addons that have help documentation.
 		addonsList = [item for item in addonHandler.getAvailableAddons() if item.getDocFilePath() and not item.isDisabled]
 		# If our list contains any elements.
 		if len(addonsList) > 0:
 			# Add the sub-menu that will list the descriptions of the scripts contained in our add-ons.
 			addonsCommands = menu.Append(wx.ID_ANY,
-			# Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+			#. Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
 			_("Add-ons &commands"),
-			# Translators: Displays the description of the commands contained in each installed add-on.
+			#. Translators: Displays the description of the commands contained in each installed add-on.
 			_("Description of the scripts contained in each add-on"))
 
 			# Associate a event to this menu 
@@ -47,6 +47,22 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				newSubMenu = menu.Append(wx.ID_ANY, "&" + item.manifest["summary"])
 				# Associate the events in each menu item with the self.onOpenHelp function.
 				gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event, args=item: self.onOpenHelp(event, args), newSubMenu)
+
+		# Creation of a self.hlpMenu object that will point to the NVDA Help menu and create our own second submenu
+		self.hlpMenu = gui.mainFrame.sysTrayIcon.helpMenu
+		menu = wx.Menu()
+		#. Translators: Label of our second sub-menu.
+		self.disabledAddonHelpSubMenu = self.hlpMenu.AppendSubMenu(menu, _("Disabled add-o&ns documentation"))
+		# Filter only those addons that have help documentation.
+		disabledAddonsList = [item1 for item1 in addonHandler.getAvailableAddons() if item1.getDocFilePath() and item1.isDisabled]
+		# If our list contains any elements.
+		if len(disabledAddonsList) > 0:
+
+			# Add our items in loop in our new submenu, each one with the name of the corresponding addon.
+			for item1 in disabledAddonsList:
+				newSubMenu1 = menu.Append(wx.ID_ANY, "&" + item1.manifest["summary"])
+				# Associate the events in each menu item with the self.onOpenHelp function.
+				gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event, args=item1: self.onOpenHelp(event, args), newSubMenu1)
 
 	def adjustGesture (self, identifier):
 		"""
@@ -96,12 +112,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 								# We get the name of the add-on.
 								addonName = segPth[segPth.index("addons")+1]
 								# We get the summary of our add-on.
-								addonSum = [addon.manifest['summary'] for addon in addonHandler.getAvailableAddons() if addon.manifest['name'] == addonName][]
+								addonSum = [addon.manifest['summary'] for addon in addonHandler.getAvailableAddons() if addon.name == addonName][0]
 								# We check the gesture (s) of our script.
 								if len (script.gestures) > 0:
 									gestInfo = " | ".join ([self.adjustGesture (x) for x in script.gestures])
 								else:
-									# Translators: Message to inform there are no command assigned.
+									#. Translators: Message to inform there are no command assigned.
 									gestInfo = _("Not assigned to gesture or part of layered commands")
 								# We try to update our dictionary addonDic, according to whether it has taken knowledge of each item or not.
 								try:
@@ -134,14 +150,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		import ui
 		addonDic = {}
 		self.updateAddonDic (addonDic)
-		# Translators: Name of the list.
+		#. Translators: Name of the list.
 		message = u"<h1>{title}</h1><br>".format(title=_("List of commands for running add-ons"))
 		for addon in sorted(addonDic, key = lambda item: item.lower()):
 			message += u"<h2>{addonSum}</h2>\n<table>\n<tr><th>".format(addonSum=addon)
-			#Translators: The title of the column containing the documentation of each of the scripts.
+			#. Translators: The title of the column containing the documentation of each of the scripts.
 			message += _("Documentation")
 			message += "</th><th>"
-			#Translators: The title of the column containing the command of each of the scripts.
+			#. Translators: The title of the column containing the command of each of the scripts.
 			message += _("Gesture")
 			message += "</th></tr>\n"
 			script = addonDic[addon]
@@ -149,6 +165,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				message += u"<tr><td>{doc}</td><td>{gesture}</td></tr>\n".format (doc = script[gesture], gesture=gesture)
 			message += "</table>\n"
 		ui.browseableMessage (message,
-		# Translators: Title of the HTML message.
+		#. Translators: Title of the HTML message.
 		_("Add-ons documentation"),
 		True)

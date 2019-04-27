@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: addonsHelp-1.1\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2019-04-26 17:05+0100\n"
-"PO-Revision-Date: 2019-04-26 23:20+0100\n"
+"PO-Revision-Date: 2019-04-28 00:21+0100\n"
 "Last-Translator: \n"
 "Language-Team: Equipa portuguesa do NVDA\n"
 "Language: pt_PT\n"
@@ -15,53 +15,72 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
+# Translators: Label of our first sub-menu.
+#. Translators: Label of our first sub-menu.
 #: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:30
-msgid "Add-ons &documentation"
+msgid "Running add-ons &documentation"
 msgstr ""
 
+#. Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
 #: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:38
 msgid "Add-ons &commands"
 msgstr ""
 
+#. Translators: Displays the description of the commands contained in each installed add-on.
 #: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:40
 msgid "Description of the scripts contained in each add-on"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:105
+#. Translators: Label of our second sub-menu.
+#: globalPlugins/addonsHelp/__init__.py:55
+msgid "Disabled add-o&ns documentation"
+msgstr ""
+
+#. Translators: Message to inform there are no command assigned.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:121
 msgid "Not assigned to gesture or part of layered commands"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:138
+#. Translators: Name of the list.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:154
 msgid "List of commands for running add-ons"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:142
+#. Translators: The title of the column containing the documentation of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:158
 msgid "Documentation"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:145
+#. Translators: The title of the column containing the command of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:161
 msgid "Gesture"
 msgstr ""
 
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#. Translators: Title of the HTML message.
 #: addonsHelp/buildVars.py:17
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:150
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:169
 msgid "Add-ons documentation"
 msgstr ""
 
+#. Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
 #: addonsHelp/addon/installTasks.py:16
 msgid ""
 "You have installed the addonsHelp-1.0 add-on which is incompatible with this "
 "one. The new name of this add-on is addonsHelp. Click OK to update it."
 msgstr ""
 
+#. Translators: The title of the dialogbox.
 #: addonsHelp/addon/installTasks.py:18
 msgid "Update confirmation"
 msgstr ""
 
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: addonsHelp/buildVars.py:20
 msgid ""
-"This add-on provides a quick way to access documentation and commands list "
-"for the add-ons you have installed, by grouping the documentation for "
-"running add-ons in the NVDA Help menu in a submenu called \"Add-ons "
-"documentation\"."
+"This add-on provides a quick way to access documentation for the add-ons you "
+"have installed, creating, in the NVDA Help menu, two  sub-menus. One, called "
+"\"Running add-ons documentation\", grouping the documentation and a list of "
+"commands for running add-ons, and another sub-menu called \"Disabled add-ons "
+"documentation\",  where are listed the disabled add-ons."
 msgstr ""

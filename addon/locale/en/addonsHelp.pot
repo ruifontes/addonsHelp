@@ -18,62 +18,69 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:30
-# Translators: Label of our sub-menu.
-msgid "Add-ons &documentation"
+#. Translators: Label of our first sub-menu.
+msgid "Running add-ons &documentation"
 msgstr ""
 
 #: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:38
-			# Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+#. Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
 msgid "Add-ons &commands"
 msgstr ""
 
 #: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:40
-			# Translators: Displays the description of the commands contained in each installed add-on.
+#. Translators: Displays the description of the commands contained in each installed add-on.
 msgid "Description of the scripts contained in each add-on"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:105
-# Translators: Message to inform there are no command assigned.
+#: globalPlugins/addonsHelp/__init__.py:55
+#. Translators: Label of our second sub-menu.
+msgid "Disabled add-o&ns documentation"
+msgstr ""
+
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:121
+#. Translators: Message to inform there are no command assigned.
 msgid "Not assigned to gesture or part of layered commands"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:138
-		# Translators: Name of the list.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:154
+#. Translators: Name of the list.
 msgid "List of commands for running add-ons"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:142
-			#Translators: The title of the column containing the documentation of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:158
+#. Translators: The title of the column containing the documentation of each of the scripts.
 msgid "Documentation"
 msgstr ""
 
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:145
-			#Translators: The title of the column containing the command of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:161
+#. Translators: The title of the column containing the command of each of the scripts.
 msgid "Gesture"
 msgstr ""
 
 #: addonsHelp/buildVars.py:17
-	# Translators: Summary for this add-on to be shown on installation and add-on information.
-#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:150
-		# Translators: Title of the HTML message.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:169
+#. Translators: Title of the HTML message.
 msgid "Add-ons documentation"
 msgstr ""
 
 #: addonsHelp/addon/installTasks.py:16
-		# Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
+#. Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
 msgid "You have installed the addonsHelp-1.0 add-on which is incompatible with this "
 "one. The new name of this add-on is addonsHelp. Click OK to update it."
 msgstr ""
 
 #: addonsHelp/addon/installTasks.py:18
-		# Translators: The title of the dialogbox.
+#. Translators: The title of the dialogbox.
 msgid "Update confirmation"
 msgstr ""
 
 #: addonsHelp/buildVars.py:20
-# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid "This add-on provides a quick way to access documentation and commands list "
-"for the add-ons you have installed, by grouping the documentation for "
-"running add-ons in the NVDA Help menu in a submenu called \"Add-ons "
-"documentation\"."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid "This add-on provides a quick way to access documentation "
+"for the add-ons you have installed, creating, in the NVDA Help menu, "
+"two  sub-menus. One, called "Running add-ons documentation", grouping "
+"the documentation and a list of commands for running add-ons, and "
+"another sub-menu called "Disabled add-ons documentation",  where are "
+"listed the disabled add-ons."
 msgstr ""

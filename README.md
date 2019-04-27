@@ -2,22 +2,27 @@
 # Add-ons documentation #
 
 ## Informations ##
-* Authors: Rui Fontes, Abdel, Zougane and Remy, and colaboration of, among others, Ângelo Abrantes and James Scholes
-* Updated in 26/04/2019
+* Authors: Rui Fontes, Zougane, Remy, Abdel and colaboration of, among others, Ângelo Abrantes and James Scholes
+* Updated in 27/04/2019
 * Download [stable version][1]
-* Download [development version][2]
 * Compatibility: NVDA 2017.2 to 2019.2
 
 ## Presentation ##
-This add-on provides a quick way to access documentation and commands list for the add-ons you have installed, by grouping the documentation for running add-ons in the NVDA Help menu in a submenu called "Add-ons documentation".
+This add-on provides a quick way to access documentation for the add-ons you have installed.
+It creates, in the NVDA Help menu, two  sub-menus.
+One, called "Running add-ons documentation", groups the documentation for each add-on and make available  a list of commands for all running add-ons, with a table for each add-on.
+Other sub-menu called "Disabled add-ons documentation",  lists the disabled add-ons, gaving access to its documentation.
+Please, remember that the Synth and Braille drivers add-ons will not appear in any of the above categories.
 
 ## Changes ##
 
 ### Version 2.0 ###
-* Created one more option in the menu to display a table, called "List of commands for running add-ons", containing the commands for each running add-on.
+* Now, the add-on creates two menus in the NVDA Help menu.
+* The "Running add-ons documentation" menu, have one more option to display the "List of commands for running add-ons", containing the commands for each add-on in a table.
+* The "Disabled add-ons documentation" menu only group the disabled add-ons with documentation files.
+* Note that Synth and Braille drivers add-ons never are listed in the above menus.
 * The add-ons are now represented by their summary and not by their name.
-* Only the running add-ons are grouped in the menu.
-* Some improvements in the code .
+* Some improvements in the code.
 
 ### Version 1.2 ###
 * Small errors corrected;
@@ -33,4 +38,3 @@ This add-on provides a quick way to access documentation and commands list for t
 * Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
 [1]: https://github.com/ruifontes/addonsHelp/releases/download/1.2/addonsHelp-1.2.nvda-addon
-[2]: https://github.com/ruifontes/addonsHelp/releases/download/2.0/addonsHelp-2.0-dev.nvda-addon
