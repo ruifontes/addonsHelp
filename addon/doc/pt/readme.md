@@ -33,4 +33,4 @@ Este extra fornece uma forma rápida de aceder à documentação e à lista de c
 *	 Versão inicial de Zougane, Rémy e Abdel actualizada para ser compatível com NVDA 2019.1.
 
 [1]: https://github.com/ruifontes/addonsHelp/releases/download/1.2/addonsHelp-1.2.nvda-addon
-[2]: https://github.com/ruifontes/addonsHelp/releases/download/2.0/addonsHelp-2.0.nvda-addon
+[2]: https://github.com/ruifontes/addonsHelp/releases/download/2.0/addonsHelp-2.0-dev.nvda-addon

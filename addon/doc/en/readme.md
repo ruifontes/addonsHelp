@@ -33,4 +33,4 @@ This add-on provides a quick way to access documentation and commands list for t
 * Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
 [1]: https://github.com/ruifontes/addonsHelp/releases/download/1.2/addonsHelp-1.2.nvda-addon
-[2]: https://github.com/ruifontes/addonsHelp/releases/download/2.0/addonsHelp-2.0.nvda-addon
+[2]: https://github.com/ruifontes/addonsHelp/releases/download/2.0/addonsHelp-2.0-dev.nvda-addon
