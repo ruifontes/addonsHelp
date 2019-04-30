@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Abdel, Zougane and Remy
+# Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel
 # This file is covered by the GNU General Public License.
 
 # import the necessary modules.
@@ -30,33 +30,31 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.addonHelpSubMenu = self.hlpMenu.AppendSubMenu(menu, _("Running add-ons &documentation"))
 		# Filter only those addons that have help documentation.
 		addonsList = [item for item in addonHandler.getAvailableAddons() if item.getDocFilePath() and not item.isDisabled]
-		# If our list contains any elements.
-		if len(addonsList) > 0:
-			# Add the sub-menu that will list the descriptions of the scripts contained in our add-ons.
-			addonsCommands = menu.Append(wx.ID_ANY,
-			#. Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
-			_("Add-ons &commands"),
-			#. Translators: Displays the description of the commands contained in each installed add-on.
-			_("Description of the scripts contained in each add-on"))
+		# Add the sub-menu that will list the descriptions of the scripts contained in our add-ons.
+		addonsCommands = menu.Append(wx.ID_ANY,
+		#. Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+		_("Add-ons &commands"),
+		#. Translators: Displays the description of the commands contained in each installed add-on.
+		_("Description of the scripts contained in each add-on"))
+		# Associate a event to this menu 
+		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event: self.onOpenDoc(event), addonsCommands)
 
-			# Associate a event to this menu 
-			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event: self.onOpenDoc(event), addonsCommands)
+		# Add our items in loop in our new submenu, each one with the name of the corresponding addon.
+		for item in addonsList:
+			newSubMenu = menu.Append(wx.ID_ANY, "&" + item.manifest["summary"])
+			# Associate the events in each menu item with the self.onOpenHelp function.
+			gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event, args=item: self.onOpenHelp(event, args), newSubMenu)
 
-			# Add our items in loop in our new submenu, each one with the name of the corresponding addon.
-			for item in addonsList:
-				newSubMenu = menu.Append(wx.ID_ANY, "&" + item.manifest["summary"])
-				# Associate the events in each menu item with the self.onOpenHelp function.
-				gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, lambda event, args=item: self.onOpenHelp(event, args), newSubMenu)
-
-		# Creation of a self.hlpMenu object that will point to the NVDA Help menu and create our own second submenu
-		self.hlpMenu = gui.mainFrame.sysTrayIcon.helpMenu
-		menu = wx.Menu()
-		#. Translators: Label of our second sub-menu.
-		self.disabledAddonHelpSubMenu = self.hlpMenu.AppendSubMenu(menu, _("Disabled add-o&ns documentation"))
 		# Filter only those addons that have help documentation.
 		disabledAddonsList = [item1 for item1 in addonHandler.getAvailableAddons() if item1.getDocFilePath() and item1.isDisabled]
 		# If our list contains any elements.
 		if len(disabledAddonsList) > 0:
+
+			# Creation of a self.hlpMenu object that will point to the NVDA Help menu and create our own second submenu
+			self.hlpMenu = gui.mainFrame.sysTrayIcon.helpMenu
+			menu = wx.Menu()
+			#. Translators: Label of our second sub-menu.
+			self.disabledAddonHelpSubMenu = self.hlpMenu.AppendSubMenu(menu, _("Disabled add-o&ns documentation"))
 
 			# Add our items in loop in our new submenu, each one with the name of the corresponding addon.
 			for item1 in disabledAddonsList:
@@ -81,7 +79,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		import addonHandler
 		# We gather all the gestures available in a dictionary, thanks to inputCore.manager.getAllGestureMappings.
 		allGest = inputCore.manager.getAllGestureMappings(obj=gui.mainFrame.prevFocus, ancestors=gui.mainFrame.prevFocusAncestors)
-
+		# We store the list of installed add-ons in a variable named addonsList.
+		addonsList = [ addon for addon in addonHandler.getAvailableAddons ()]
 		# We Iterates through the dictionary containing all the available gestures.
 		for category in allGest:
 			# We create a local variable, storing the value of each of the main items in our dictionary.
@@ -100,19 +99,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 						# The moduleName property of each of these script objects returns the name of the module that contains the script.
 						# Now, it's going to be a bit complicated.
 						# We point to the script object directly in the appModule or globalPlugin, to check its path.
-						sObject = getattr (script.cls, "script_{scriptName}".format (scriptName=script.scriptName), None)
-						if sObject:
+						scriptMod = getattr (script.cls, "script_{scriptName}".format (scriptName=script.scriptName), None)
+						if scriptMod:
 							# Here is the path to the module, it will be interesting, because it's it that will reveal if it's an add-on or not.
-							pth=sObject.im_func.func_code.co_filename
+							modPath = scriptMod.im_func.func_code.co_filename
 							# This is the only way we have to retrieve the name of the add-on.
 							# We check the presence of the "addons" directory in the path.
-							if "addons" in pth:
+							if any (addon.path in modPath for addon in addonsList):
 								# There is no longer any doubt, it's an add-on.
-								segPth = pth.split("\\")
-								# We get the name of the add-on.
-								addonName = segPth[segPth.index("addons")+1]
-								# We get the summary of our add-on.
-								addonSum = [addon.manifest['summary'] for addon in addonHandler.getAvailableAddons() if addon.name == addonName][0]
+								# We get the summary of the add-on.
+								addonSum = [addon.manifest["summary"] for addon in addonsList if addon.path in modPath][0]
 								# We check the gesture (s) of our script.
 								if len (script.gestures) > 0:
 									gestInfo = " | ".join ([self.adjustGesture (x) for x in script.gestures])
@@ -127,8 +123,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 									addonDic[addonSum]={}
 									# We can now make our update.
 									addonDic[addonSum][gestInfo]=script.displayName
-								# The following line given by Cyrille on the nvda-addons mailing list should work but gives me this error ("accRole failed: (-2147024809, 'Param\xe8tre incorrect.', (None, None, None, 0, None))
-								#addonDic.get(addonSum, {})[gestInfo]=script.displayName
 
 	def terminate(self):
 		# This terminate function is necessary when creating new menus.

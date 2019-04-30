@@ -2,8 +2,8 @@
 # Documentação dos extras #
 
 ## Informações ##
-* Autores: Rui Fontes, Abdel, Zougane and Rémy
-* actualizado em 26/04/2019
+* Autores: Rui Fontes, Zougane and Rémy, Abdel com colaboração, entre outros de Ângelo Abrantes e James Scholles
+* actualizado em 30/04/2019
 * Descarregar a [versão estável][1]
 * Compatibilidade: NVDA 2017.2 até 2019.2
 
