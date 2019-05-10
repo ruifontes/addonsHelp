@@ -5,7 +5,7 @@
 * Authors: Rui Fontes, Zougane, Remy, Abdel and colaboration of, among others, Ângelo Abrantes and James Scholes
 * Updated in 30/04/2019
 * Download [stable version][1]
-* Compatibility: NVDA 2017.2 to 2019.2
+* Compatibility: NVDA 2017.3 to 2019.2
 
 ## Presentation ##
 This add-on provides a quick way to access documentation for the add-ons you have installed.
