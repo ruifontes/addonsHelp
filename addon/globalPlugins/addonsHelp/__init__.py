@@ -128,9 +128,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# This terminate function is necessary when creating new menus.
 		try:
 			if wx.version().startswith("4"):
-				self.hlpMenu.Remove(self.addonHelpMenu)
+				self.hlpMenu.Remove(self.addonHelpSubMenu)
 			else:
-				self.hlpMenu.RemoveItem(self.addonHelpMenu)
+				self.hlpMenu.RemoveItem(self.addonHelpSubMenu)
+		except:
+			pass
+		try:
+			if wx.version().startswith("4"):
+				self.hlpMenu.Remove(self.disabledAddonHelpSubMenu)
+			else:
+				self.hlpMenu.RemoveItem(self.disabledAddonHelpSubMenu)
 		except:
 			pass
 
