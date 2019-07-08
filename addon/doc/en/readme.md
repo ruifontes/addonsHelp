@@ -1,4 +1,3 @@
-﻿
 # Add-ons documentation #
 
 ## Informations ##
@@ -39,4 +38,4 @@ Also remember that you can access the NVDA and add-ons commands in the Input ges
 ### Version 1.0 ###
 * Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/1.2/addonsHelp-1.2.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.0/addonsHelp-2.0.nvda-addon

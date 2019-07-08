@@ -1,4 +1,3 @@
-﻿
 # Documentação dos extras #
 
 ## Informações ##
@@ -20,7 +19,7 @@ Lembre-se que também pode aceder aos comandos do NVDA e dos extras no diálogo 
 
 ### Versão 2.0 ###
 * Agora, o extra cria dois menus no menu Ajuda do NVDA;
-* O menu "Documentação dos extras em execução", tem mais uma opção para disponibilizar uma "Lista de comandos para os extras em execução", contendo os comandos para cada extra  numa tabela;
+* O menu "Documentação dos extras em execução" tem mais uma opção para disponibilizar uma "Lista de comandos para os extras em execução", contendo os comandos para cada extra  numa tabela;
 * O menu "Documentação dos extras desactivados" apenas agrupa a documentação para cada extra desactivado contendo documentação;
 * Note que os extras dos drivers de Sintetizadores  e de linhas Braille não aparecerão em nenhuma das categorias acima;
 * Os extras passam a ser designados pelo sumário, en vez do nome;
