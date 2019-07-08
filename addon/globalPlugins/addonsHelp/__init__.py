@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # Copyright (C) 2019 Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel
 # This file is covered by the GNU General Public License.
 
@@ -129,14 +129,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		try:
 			if wx.version().startswith("4"):
 				self.hlpMenu.Remove(self.addonHelpSubMenu)
-			else:
-				self.hlpMenu.RemoveItem(self.addonHelpSubMenu)
-		except:
-			pass
-		try:
-			if wx.version().startswith("4"):
 				self.hlpMenu.Remove(self.disabledAddonHelpSubMenu)
 			else:
+				self.hlpMenu.RemoveItem(self.addonHelpSubMenu)
 				self.hlpMenu.RemoveItem(self.disabledAddonHelpSubMenu)
 		except:
 			pass
