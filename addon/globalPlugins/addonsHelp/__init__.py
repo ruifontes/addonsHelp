@@ -9,7 +9,7 @@ import addonHandler
 import gui
 import wx
 import webbrowser
-
+import sys
 # For translation
 addonHandler.initTranslation()
 
@@ -102,7 +102,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 						scriptMod = getattr (script.cls, "script_{scriptName}".format (scriptName=script.scriptName), None)
 						if scriptMod:
 							# Here is the path to the module, it will be interesting, because it's it that will reveal if it's an add-on or not.
-							modPath = scriptMod.im_func.func_code.co_filename
+							modPath = scriptMod.im_func.func_code.co_filename if sys.version_info.major == 2 else scriptMod.__code__.co_filename
 							# This is the only way we have to retrieve the name of the add-on.
 							# We check the presence of the "addons" directory in the path.
 							if any (addon.path in modPath for addon in addonsList):
@@ -128,11 +128,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# This terminate function is necessary when creating new menus.
 		try:
 			if wx.version().startswith("4"):
-				self.hlpMenu.Remove(self.addonHelpSubMenu)
-				self.hlpMenu.Remove(self.disabledAddonHelpSubMenu)
+				self.hlpMenu.Remove(self.addonHelpMenu)
 			else:
-				self.hlpMenu.RemoveItem(self.addonHelpSubMenu)
-				self.hlpMenu.RemoveItem(self.disabledAddonHelpSubMenu)
+				self.hlpMenu.RemoveItem(self.addonHelpMenu)
 		except:
 			pass
 
