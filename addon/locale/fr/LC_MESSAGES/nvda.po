@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the addonsHelp package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: addonsHelp 2.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2019-05-11 12:52+1000\n"
+"PO-Revision-Date: 2019-05-11 09:25+0200\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Michel Such <michel.such@free.fr>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. . Translators: Label of our first sub-menu.
+msgid "Running add-ons &documentation"
+msgstr "&Documentation des extensions en cours d'exécution"
+
+#. . Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+msgid "Add-ons &commands"
+msgstr "&Commandes des extensions"
+
+#. . Translators: Displays the description of the commands contained in each installed add-on.
+msgid "Description of the scripts contained in each add-on"
+msgstr "Description des scripts contenus dans chaque extension"
+
+#. . Translators: Label of our second sub-menu.
+msgid "Disabled add-o&ns documentation"
+msgstr "Documentation des &extensions désactivées"
+
+#, python-brace-format
+msgid "{main} ({source})"
+msgstr "{main} ({source})"
+
+#. . Translators: Message to inform there are no command assigned.
+msgid "Not assigned to gesture or part of layered commands"
+msgstr "Non assigné à un geste ou élément de commandes de niveau supérieur"
+
+#. . Translators: Name of the list.
+msgid "List of commands for running add-ons"
+msgstr "Liste des commandes pour exécuter des extensions"
+
+#. . Translators: The title of the column containing the documentation of each of the scripts.
+msgid "Documentation"
+msgstr "Documentation"
+
+#. . Translators: The title of the column containing the command of each of the scripts.
+msgid "Gesture"
+msgstr "Gestes de commandes"
+
+#. . Translators: Title of the HTML message.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Add-ons documentation"
+msgstr "Documentation des extensions"
+
+#. Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
+msgid ""
+"You have installed the addonsHelp-1.0 add-on which is incompatible with this "
+"one. The new name of this add-on is addonsHelp. Click OK to update it."
+msgstr ""
+"Vous avez installé l'extension addonsHelp-1.0 qui est incompatible avec "
+"celle-ci. Le nouveau nom de cette extension est addonsHelp. Cliquez sur OK "
+"pour la mettre à jour."
+
+#. Translators: The title of the dialogbox.
+msgid "Update confirmation"
+msgstr "Confirmation de mise à jour"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"This add-on provides a quick way to access documentation for the add-ons you "
+"have installed, creating, in the NVDA Help menu, two  sub-menus. One, called "
+"\"Running add-ons documentation\", grouping the documentation and a list of "
+"commands for running add-ons, and another sub-menu called \"Disabled add-ons "
+"documentation\",  where are listed the disabled add-ons."
+msgstr ""
+"Cette extension fournit un moyen rapide d'accéder à la documentation des "
+"extensions que vous avez installées. Elle ajoute, dans le menu Aide de NVDA, "
+"deux sous-menus. L'un, appelé \"Documentation des extensions en cours "
+"d'exécution\", regroupe la documentation de chaque extension et met à "
+"disposition une liste de commandes pour toutes les extensions en cours "
+"d'exécution, avec un tableau pour chaque extension. L'autre sous-menu "
+"intitulé \"Documentation des extensions désactivées\" répertorie les "
+"extensions désactivées."

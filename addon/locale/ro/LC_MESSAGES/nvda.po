@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the addonsHelp package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: addonsHelp 2.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2019-05-24 14:27+1000\n"
+"PO-Revision-Date: 2019-12-24 15:27+0000\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. . Translators: Label of our first sub-menu.
+msgid "Running add-ons &documentation"
+msgstr "&Documentația suplimentelor care rulează"
+
+#. . Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+msgid "Add-ons &commands"
+msgstr "&Comenzile suplimentelor"
+
+#. . Translators: Displays the description of the commands contained in each installed add-on.
+msgid "Description of the scripts contained in each add-on"
+msgstr "Fiecare supliment conține o descriere de scripturi"
+
+#. . Translators: Label of our second sub-menu.
+msgid "Disabled add-o&ns documentation"
+msgstr "&Documentația suplimentelor dezactivate"
+
+#, python-brace-format
+msgid "{main} ({source})"
+msgstr "{main} ({source})"
+
+#. . Translators: Message to inform there are no command assigned.
+msgid "Not assigned to gesture or part of layered commands"
+msgstr "Nu este atribuit unui gest sau unei părți dintr-o comandă stratificată"
+
+#. . Translators: Name of the list.
+msgid "List of commands for running add-ons"
+msgstr "Listă de comenzi pentru suplimentele care rulează"
+
+#. . Translators: The title of the column containing the documentation of each of the scripts.
+msgid "Documentation"
+msgstr "Documentație"
+
+#. . Translators: The title of the column containing the command of each of the scripts.
+msgid "Gesture"
+msgstr "Gest"
+
+#. . Translators: Title of the HTML message.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Add-ons documentation"
+msgstr "Documentație suplimente"
+
+#. Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
+msgid ""
+"You have installed the addonsHelp-1.0 add-on which is incompatible with this "
+"one. The new name of this add-on is addonsHelp. Click OK to update it."
+msgstr ""
+"Ați instalat suplimentul addonsHelp-1.0, care este incompatibil cu acesta. "
+"Noul nume al acestui supliment este addonsHelp. Faceți click pe OK pentru a-"
+"l actualiza."
+
+#. Translators: The title of the dialogbox.
+msgid "Update confirmation"
+msgstr "Confirmare actualizare"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"This add-on provides a quick way to access documentation for the add-ons you "
+"have installed, creating, in the NVDA Help menu, two  sub-menus. One, called "
+"\"Running add-ons documentation\", grouping the documentation and a list of "
+"commands for running add-ons, and another sub-menu called \"Disabled add-ons "
+"documentation\",  where are listed the disabled add-ons."
+msgstr ""
+"Acest supliment oferă o modalitate rapidă de a accesa documentațiile "
+"suplimentelor pe care le-ați instalat, creând, în meniul Ajutor din NVDA, "
+"două submeniuri. Primull, numit „Documentația suplimentelor care rulează”, "
+"grupează documentațiile și o listă de suplimente care rulează, iar celălalt "
+"submeniu, numit „Documentația suplimentelor dezactivate”, are în avidența sa "
+"toate suplimentele dezactivate."

@@ -1,4 +1,4 @@
-﻿
+
 # Add-ons documentation #
 
 ## Informations ##
