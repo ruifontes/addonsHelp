@@ -9,7 +9,7 @@ _ = lambda x : x
 # Add-on information variables
 addon_info = {
 	# for previously unpublished addons, please follow the community guidelines at:
-	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
+	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guidelines.txt
 	# add-on Name, internal for nvda
 	"addon_name" : "addonsHelp",
 	# Add-on summary, usually the user visible name of the addon.
@@ -21,16 +21,16 @@ addon_info = {
 	# version
 	"addon_version" : "2.1",
 	# Author(s)
-	"addon_author" : "Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel",
+	"addon_author" : u"Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel",
 	# URL for the add-on documentation support
 	"addon_url" : "https://github.com/ruifontes/addonsHelp",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
-	# Minimum NVDA version supported (e.g. "2018.3.0")
+	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion" : "2017.3",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
 	"addon_lastTestedNVDAVersion" : "2019.3",
-	# Add-on update channel (default is stable or None)
+	# Add-on update channel (default is None, denoting stable releases, and for development releases, use "dev"; do not change unless you know what you are doing)
 	"addon_updateChannel" : None,
 }
 
