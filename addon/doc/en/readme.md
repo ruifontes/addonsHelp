@@ -40,4 +40,4 @@ Please, remember that the Synth and Braille drivers add-ons will not appear in a
 ### Version 1.0 ###
 * Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1/addonsHelp-2.1.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon

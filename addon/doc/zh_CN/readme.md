@@ -38,4 +38,4 @@
 ### 版1.0 ###
 * 最初发布由Zougane，雷米和阿卜杜勒更新，以兼容NVDA 2019.1。
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1/addonsHelp-2.1.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon

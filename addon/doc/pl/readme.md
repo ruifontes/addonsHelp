@@ -39,4 +39,4 @@ Także zapamiętajcie, że do poleceń NVDA, jak i zarówno dodatków można si�
 ### Wersja 1.0 ###
 * Wersja pierwotna przez Zougane, Remy i Abdel zaktualizowana dla zgodności z wersją NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1/addonsHelp-2.1.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon

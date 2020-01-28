@@ -42,4 +42,4 @@ Lisäosien komentoja ei ole kuitenkaan ryhmitelty eikä "Windows"-näppäimen si
 ### Versio 1.0 ###
 * Zouganen tekemä ensimmäinen versio. Remy ja Abdel päivittivät yhteensopivaksi NVDA 2019.1:n kanssa.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1/addonsHelp-2.1.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon

@@ -41,4 +41,4 @@ Lembra tamén que podes acceder aos atallos do NVDA e os complementos no diálog
 ### Versión 1.0 ###
 * Versión inicial de Zougane, Rémy e Abdel actualizada para que sexa compatible con NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1/addonsHelp-2.1.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon

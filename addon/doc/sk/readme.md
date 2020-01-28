@@ -40,4 +40,4 @@ Pamätajte tiež, že môžete pristupovať k príkazom NVDA a doplnkom v dialó
 ### Verzia 1.0 ###
 * Prvé vydanie vytvorili Zoudane, Rémy a Addel, aktualizované na NVDA kompatibilita 2019.1. 
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1/addonsHelp-2.1.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
