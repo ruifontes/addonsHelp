@@ -1,10 +1,10 @@
 # Add-ons documentation #
 
 ## Informații ##
-* Autori: Rui Fontes, Zougane, Remy, Abdel și colaboratori precum Ângelo Abrantes și James Scholes
-* Actualizat pe 26/12/2019
+* Autori: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel și colaboratori și James Scholes
+* Actualizat pe 31/05/2021
 * Descărcați [versiunea stabilă][1]
-* Compatibilitate: NVDA 2017.3 - 2019.3
+* Compatibilitate: NVDA 2017.3 - 2021.1
 
 ## Prezentare ##
 Acest supliment oferă o modalitate rapidă de accesare a documentației suplimentelor pe care le-ați instalat.
@@ -16,6 +16,9 @@ Rețineți că puteți accesa documentația suplimentelor și din administratoru
 De asemenea, rețineți că puteți accesa comenzile NVDA și ale suplimentelor sale din dialogul Gesturi de intrare. Totuși, În acest dialog, comenzile suplimentelor nu sunt grupate și nu puteți găsi o comandă care să conțină „windows” în mod implicit.
 
 ## Modificări ##
+
+### Versiunea 21.05 ###
+* Adaptation to NVDA 2021.1
 
 ### Versiunea 2.1 ###
 * Adaptation to NVDA 2019.3
@@ -41,4 +44,4 @@ De asemenea, rețineți că puteți accesa comenzile NVDA și ale suplimentelor 
 ### Versiunea 1.0 ###
 * Versiunea inițială de Zougane, Remy și Abdel actualizată să fie compatibilă cu NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

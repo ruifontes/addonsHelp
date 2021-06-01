@@ -1,10 +1,10 @@
 # Documentación de complementos #
 
 ## Información ##
-* Autores: Rui Fontes, Zougane, Remy, Abdel e colaboracións, entre outras, de Ângelo Abrantes e James Scholes
-* Actualizado o 26/12/2019
+* Autores: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel e colaboracións de James Scholes
+* Actualizado o 31/05/2021
 * Descargar [versión estable][1]
-* compatibilidade: de NVDA 2017.3 a 2019.3
+* compatibilidade: de NVDA 2017.3 a 2021.1
 
 ## Presentación ##
 Este complemento proporciona un método rápido para acceder á documentación dos complementos que tes instalados. 
@@ -16,6 +16,9 @@ Ten en conta que tamén podes acceder á documentación dos complementos a trav�
 Lembra tamén que podes acceder aos atallos do NVDA e os complementos no diálogo Xestos de entrada. Porén, neste diálogo os atallos de complementos non están agrupados e non podes encontrar un atallo que conteña "xanelas", por exemplo.
 
 ## Cambios ##
+
+### Versión 21.05 ###
+* Adaptación ó NVDA 2021.1
 
 ### Versión 2.1 ###
 * Adaptación ó NVDA 2019.3
@@ -41,4 +44,4 @@ Lembra tamén que podes acceder aos atallos do NVDA e os complementos no diálog
 ### Versión 1.0 ###
 * Versión inicial de Zougane, Rémy e Abdel actualizada para que sexa compatible con NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

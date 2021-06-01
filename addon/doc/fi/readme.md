@@ -1,10 +1,10 @@
 # Lisäosien ohjeet #
 
 ## Tiedot ##
-* Tekijät: Rui Fontes, Zougane, Remy, Abdel sekä avustajina mm. Ângelo Abrantes ja James Scholes
-* Päivitetty 26/12/2019
+* Tekijät: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel sekä avustajina James Scholes
+* Päivitetty 31/05/2021
 * Lataa [vakaa versio][1]
-* Yhteensopivuus: NVDA 2017.3-2019.3
+* Yhteensopivuus: NVDA 2017.3-2021.1
 
 ## Kuvaus ##
 Tämä lisäosa tarjoaa nopean tavan asennettujen lisäosien ohjeiden lukemiseen. 
@@ -17,6 +17,9 @@ Kannattaa muistaa, että NVDA:n ja lisäosien komentoja voi tarkastella myös Sy
 Lisäosien komentoja ei ole kuitenkaan ryhmitelty eikä "Windows"-näppäimen sisältäviä komentoja näytetä.
 
 ## Muutokset ##
+
+### Versio 21.05 ###
+* Sopeutuminen 2021.1
 
 ### Versio 2.1 ###
 * Sopeutuminen 2019.3
@@ -42,4 +45,4 @@ Lisäosien komentoja ei ole kuitenkaan ryhmitelty eikä "Windows"-näppäimen si
 ### Versio 1.0 ###
 * Zouganen tekemä ensimmäinen versio. Remy ja Abdel päivittivät yhteensopivaksi NVDA 2019.1:n kanssa.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

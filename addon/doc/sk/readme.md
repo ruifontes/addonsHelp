@@ -1,10 +1,10 @@
 #  #
 
 ## Informácie ##
-* Autory: Rui Fontes, Zougane, Remy, Abdel and colaboration of, among others, Ângelo Abrantes and James Scholes
-* Aktualizované 26/12/2019
+* Autory: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of, James Scholes
+* Aktualizované 31/05/2021
 * Stiahnúť [stabilnú verziu][1]
-* NVDA kompatibilita: 2017.3 a 2019.3
+* NVDA kompatibilita: 2017.3 a 2021.1
 
 ## Prezentácia ##
 Tento doplnok poskytuje rýchly spôsob prístupu k dokumentácii nainštalovaných doplnkov.
@@ -15,6 +15,9 @@ Všimnite si tiež, že k doplnkovej dokumentácii máte prístup aj prostrední
 Pamätajte tiež, že môžete pristupovať k príkazom NVDA a doplnkom v dialógovom okne Vstupné gestá. V tomto dialógovom okne však príkazy doplnkov nie sú zoskupené a nemôžete nájsť príkaz obsahujúci "okná" podľa inštancie .
 
 ## Zmeny ##
+
+### Verzia 21.05 ###
+* Adaptation to NVDA 2021.1
 
 ### Verzia 2.1 ###
 * Adaptation to NVDA 2019.3
@@ -40,4 +43,4 @@ Pamätajte tiež, že môžete pristupovať k príkazom NVDA a doplnkom v dialó
 ### Verzia 1.0 ###
 * Prvé vydanie vytvorili Zoudane, Rémy a Addel, aktualizované na NVDA kompatibilita 2019.1. 
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

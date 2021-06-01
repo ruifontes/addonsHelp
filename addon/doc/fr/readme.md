@@ -1,10 +1,10 @@
 # Documentation des extensions #
 
 ## Informations ##
-* Auteurs : Rui Fontes, Zougane, Remy, Abdel et la collaboration, parmi d'autres, d'Ângelo Abrantes et James Scholes
-* Mis à jour le 26/12/2019
+* Auteurs : Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel et la collaboration de James Scholes
+* Mis à jour le 31/05/2021
 * Télécharger : [version stable][1]
-* Compatibilité : NVDA 2017.2 à 2019.3
+* Compatibilité : NVDA 2017.2 à 2021.1
 
 ## Présentation ##
 Cette extension fournit un moyen rapide d'accéder à la documentation des extensions que vous avez installées.
@@ -16,6 +16,9 @@ Notez que vous pouvez également accéder à la documentation des extensions par
 N'oubliez pas non plus que vous pouvez accéder aux commandes NVDA et à celles des extensions dans la boîte de dialogue Gestes de commandes. Cependant, dans cette boîte de dialogue, les commandes d’extensions ne sont pas groupées et vous ne pouvez pas trouver une commande contenant "windows", par exemple ...
 
 ## Changements ##
+
+### Version 21.05 ###
+* Adaptation à NVDA 2021.1
 
 ### Version 2.1 ###
 * Adaptation à NVDA 2019.3
@@ -41,4 +44,4 @@ N'oubliez pas non plus que vous pouvez accéder aux commandes NVDA et à celles 
 ### Version 1.0 ###
 * Première version par Abdel, Zougane et Remy, mise à jour pour être compatible avec NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

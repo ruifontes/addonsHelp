@@ -1,10 +1,10 @@
 # 插件帮助 #
 
 ## 简介 ##
-* 作者: Rui Fontes, Zougane, Remy, Abdel and colaboration of, among others, Ângelo Abrantes and James Scholes
-* 更新日期 26/12/2019
+* 作者: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
+* 更新日期 31/05/2021
 * 下载 [稳定版][1]
-* 插件兼容版本: NVDA 2017.3 至 2019.3
+* 插件兼容版本: NVDA 2017.3 至 2021.1
 
 ## 介绍 ##
 此插件提供了一种快速访问已安装的插件文档的方式。
@@ -13,6 +13,9 @@
 其他名为“已禁用的插件文档”的子菜单列出了已禁用的插件，可以访问其文档。请记住，Synth和盲文驱动程序插件不会出现在上述任何类别中。请注意，您还可以通过NVDA的“工具”菜单中的“插件”管理器访问插件文档。在这里，您还可以获得有关插件状态的信息。另请记住，您可以在“输入手势”对话框中访问NVDA和插件命令。但是，在此对话框中，插件命令未分组，您无法找到包含“windows”的命令，例如...
 
 ## 更改 ##
+
+### 版本21.05 ###
+* Adaptation to NVDA 2021.1
 
 ### 版本2.1 ###
 * Adaptation to NVDA 2019.3
@@ -38,4 +41,4 @@
 ### 版1.0 ###
 * 最初发布由Zougane，雷米和阿卜杜勒更新，以兼容NVDA 2019.1。
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

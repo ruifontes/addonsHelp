@@ -1,10 +1,10 @@
-# Add-ons documentation #
+﻿# Add-ons documentation #
 
 ## Informations ##
-* Authors: Rui Fontes, Zougane, Remy, Abdel and colaboration of, among others, Ângelo Abrantes and James Scholes
-* Updated in 26/12/2019
+* Authors: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
+* Updated in 31/05/2021
 * Download [stable version][1]
-* Compatibility: NVDA version 2017.2 to 2019.3
+* Compatibility: NVDA version 2017.2 to 2021.1
 
 ## Presentation ##
 This add-on provides a quick way to access documentation for the add-ons you have installed.
@@ -14,6 +14,9 @@ The other sub-menu, called "Disabled add-ons documentation",  lists the disabled
 Please, remember that the Synth and Braille drivers add-ons will not appear in any of the above categories.
 
 ## Changes ##
+
+### Version 21.05 ###
+* Adaptation to NVDA 2021.1
 
 ### Version 2.1 ###
 * Adaptation to NVDA 2019.3
@@ -39,4 +42,4 @@ Please, remember that the Synth and Braille drivers add-ons will not appear in a
 ### Version 1.0 ###
 * Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

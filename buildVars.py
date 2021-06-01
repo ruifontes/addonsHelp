@@ -19,9 +19,9 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""This add-on provides a quick way to access documentation for the add-ons you have installed, creating, in the NVDA Help menu, two  sub-menus. One, called "Running add-ons documentation", grouping the documentation and a list of commands for running add-ons, and another sub-menu called "Disabled add-ons documentation",  listing the disabled add-ons documentation."""),
 	# version
-	"addon_version" : "2.1",
+	"addon_version" : "21.05",
 	# Author(s)
-	"addon_author" : u"Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Remy and Abdel",
+	"addon_author" : "Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com>, Zougane, Remy and Abdel",
 	# URL for the add-on documentation support
 	"addon_url" : "https://github.com/ruifontes/addonsHelp",
 	# Documentation file name
@@ -29,7 +29,7 @@ addon_info = {
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion" : "2017.3",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion" : "2019.3",
+	"addon_lastTestedNVDAVersion" : "2021.1",
 	# Add-on update channel (default is None, denoting stable releases, and for development releases, use "dev"; do not change unless you know what you are doing)
 	"addon_updateChannel" : None,
 }

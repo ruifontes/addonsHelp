@@ -1,8 +1,8 @@
 # Documentación de complementos #
 
 ## Información ##
-* Autores: Rui Fontes, Zougane, Rémy, Abdel, con la colaboración de Ângelo Abrantes y James Scholes entre otros
-* Actualizado el 26/12/2019
+* Autores: Rui Fontes, Ângelo Abrantes, Zougane, Rémy, Abdel, con la colaboración de James Scholes entre otros
+* Actualizado el 31/05/2021
 * Descargar [versión estable][1]
 * Compatibilidad con NVDA: de 2017.3 a 2019.3
 
@@ -16,6 +16,9 @@ Ten en cuenta que también puedes acceder a la documentación de los complemento
 No olvides que también puedes acceder a las órdenes de NVDA y los complementos desde el diálogo Gestos de entrada. Sin embargo, en este diálogo las órdenes de los complementos no se agrupan y no puedes encontrar una orden con la palabra "Windows", por ejemplo...
 
 ## Cambios ##
+
+### Versión 21.05 ###
+* Adaptación a NVDA 2021.1
 
 ### Versión 2.1 ###
 * Adaptación a NVDA 2019.3
@@ -41,4 +44,4 @@ No olvides que también puedes acceder a las órdenes de NVDA y los complementos
 ### Versión 1.0 ###
 * Versión inicial de Zougane, Remy y Abdel actualizada para ser compatible con NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

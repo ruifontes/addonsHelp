@@ -1,10 +1,10 @@
 # Dokumentacja dla dodatków #
 
 ## Informacja ##
-* Autorzy: Rui Fontes, Zougane, Remy, Abdel i współpraca z Ângelo Abrantes and James Scholes
-* Zaktualizowano 26/12/2019
+* Autorzy: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel i współpraca z James Scholes
+* Zaktualizowano 31/05/2021
 * Pobierz [Wersja stabilna][1]
-* Zgodność: NVDA 2017.3 do 2019.3
+* Zgodność: NVDA 2017.3 do 2021.1
 
 ## Opis ##
 Ten dodatek dostarcza dokumentację dla zainstalowanych dodatków, tworząc w meni pomoc, dwóch meni rozwijanych.
@@ -14,6 +14,9 @@ Także miejcie na uwadze że dokumentację dodatków można odtworzyć w meni na
 Także zapamiętajcie, że do poleceń NVDA, jak i zarówno dodatków można się dostać z poziomu dialogu zdarzeń wejścia. Jednakże w tym dialogu komendy nie są grupowane i tutaj nie można znaleźć na przykład komend, zawierających klawisza windows.
 
 ## Zmiany ##
+
+### Wersja 21.05 ###
+* Adaptation to NVDA 2021.1
 
 ### Wersja 2.1 ###
 * Adaptation to NVDA 2019.3
@@ -39,4 +42,4 @@ Także zapamiętajcie, że do poleceń NVDA, jak i zarówno dodatków można si�
 ### Wersja 1.0 ###
 * Wersja pierwotna przez Zougane, Remy i Abdel zaktualizowana dla zgodności z wersją NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp

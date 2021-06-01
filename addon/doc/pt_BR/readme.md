@@ -1,10 +1,10 @@
 # Documentação dos extras #
 
 ## Informações ##
-* Autores: Rui Fontes, Zougane and Rémy, Abdel com colaboração, entre outros de Ângelo Abrantes e James Scholles
-* actualizado em 26/12/2019
+* Autores: Rui Fontes, Ângelo Abrantes, Zougane and Rémy, Abdel com colaboração de James Scholles
+* actualizado em 31/05/2021
 * Descarregar a [versão estável][1]
-* Compatibilidade: NVDA versão 2017.2 até 2019.3
+* Compatibilidade: NVDA versão 2017.2 até 2021.1
 
 # Apresentação #
 Este complemento fornece uma maneira rápida de acessar a documentação dos complementos que você instalou.
@@ -16,6 +16,9 @@ Note que também pode aceder à documentação dos extras através do "Gestor de
 Lembre-se que também pode aceder aos comandos do NVDA e dos extras no diálogo "Definir comandos". No entanto, neste diálogo os comandos não estão agrupados por extras e não pode pesquisar por um comando contendo a tecla "windows", por exemplo ...
 
 ## Alterações ##
+
+### Versão 21.05 ###
+* Adaptação para NVDA 2021.1
 
 ### Versão 2.1 ###
 * Adaptação para NVDA 2019.3
@@ -41,5 +44,4 @@ Lembre-se que também pode aceder aos comandos do NVDA e dos extras no diálogo 
 ### Versão 1.0 ###
 *	 Versão inicial de Zougane, Rémy e Abdel actualizada para ser compatível com NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2.1/addonsHelp-2.1.nvda-addon
-[2]: https://github.com/ruifontes/addonsHelp/releases/download/2.1.0/addonsHelp-2.1.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp
