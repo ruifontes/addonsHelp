@@ -2,9 +2,9 @@
 
 ## Informacja ##
 * Autorzy: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel i współpraca z James Scholes
-* Zaktualizowano 31/05/2021
+* Zaktualizowano 21/03/2022
 * Pobierz [Wersja stabilna][1]
-* Zgodność: NVDA 2017.3 do 2021.1
+* Zgodność: NVDA 2017.3 I dalej.
 
 ## Opis ##
 Ten dodatek dostarcza dokumentację dla zainstalowanych dodatków, tworząc w meni pomoc, dwóch meni rozwijanych.

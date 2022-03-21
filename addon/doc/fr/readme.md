@@ -2,9 +2,9 @@
 
 ## Informations ##
 * Auteurs : Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel et la collaboration de James Scholes
-* Mis à jour le 31/05/2021
+* Mis à jour le 21/03/2022
 * Télécharger : [version stable][1]
-* Compatibilité : NVDA 2017.2 à 2021.1
+* Compatibilité : NVDA 2017.2 et au-delà
 
 ## Présentation ##
 Cette extension fournit un moyen rapide d'accéder à la documentation des extensions que vous avez installées.

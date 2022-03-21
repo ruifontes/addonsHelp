@@ -2,9 +2,9 @@
 
 ## Informações ##
 * Autores: Rui Fontes, Ângelo Abrantes, Zougane and Rémy, Abdel com colaboração de James Scholles
-* actualizado em 31/05/2021
+* actualizado em 21/03/2022
 * Descarregar a [versão estável][1]
-* Compatibilidade: NVDA versão 2017.2 até 2021.1
+* Compatibilidade: NVDA versão 2017.2 e seguintes
 
 # Apresentação #
 Este complemento fornece uma maneira rápida de acessar a documentação dos complementos que você instalou.

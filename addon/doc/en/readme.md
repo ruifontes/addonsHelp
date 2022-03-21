@@ -2,7 +2,7 @@
 
 ## Informations ##
 * Authors: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
-* Updated in 31/05/2021
+* Updated in 21/03/2022
 * Download [stable version][1]
 * Compatibility: NVDA version 2017.2 to 2021.1
 

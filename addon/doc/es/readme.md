@@ -2,9 +2,9 @@
 
 ## Información ##
 * Autores: Rui Fontes, Ângelo Abrantes, Zougane, Rémy, Abdel, con la colaboración de James Scholes entre otros
-* Actualizado el 31/05/2021
+* Actualizado el 21/03/2022
 * Descargar [versión estable][1]
-* Compatibilidad con NVDA: de 2017.3 a 2019.3
+* Compatibilidad con NVDA: 2017.3 y más allá
 
 ## Presentación ##
 Este complemento proporciona una manera rápida de acceder a la documentación de los complementos que tengas instalados.

@@ -2,9 +2,9 @@
 
 ## Informații ##
 * Autori: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel și colaboratori și James Scholes
-* Actualizat pe 31/05/2021
+* Actualizat pe 21/03/2022
 * Descărcați [versiunea stabilă][1]
-* Compatibilitate: NVDA 2017.3 - 2021.1
+* Compatibilitate: NVDA 2017.3 și mai departe
 
 ## Prezentare ##
 Acest supliment oferă o modalitate rapidă de accesare a documentației suplimentelor pe care le-ați instalat.

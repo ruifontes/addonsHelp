@@ -2,9 +2,9 @@
 
 ## Tiedot ##
 * Tekijät: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel sekä avustajina James Scholes
-* Päivitetty 31/05/2021
+* Päivitetty 21/03/2022
 * Lataa [vakaa versio][1]
-* Yhteensopivuus: NVDA 2017.3-2021.1
+* Yhteensopivuus: NVDA 2017.3 ja sen jälkeen
 
 ## Kuvaus ##
 Tämä lisäosa tarjoaa nopean tavan asennettujen lisäosien ohjeiden lukemiseen. 

@@ -2,9 +2,9 @@
 
 ## Informácie ##
 * Autory: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of, James Scholes
-* Aktualizované 31/05/2021
+* Aktualizované 21/03/2022
 * Stiahnúť [stabilnú verziu][1]
-* NVDA kompatibilita: 2017.3 a 2021.1
+* NVDA kompatibilita: 2017.3 A ĎALŠIE
 
 ## Prezentácia ##
 Tento doplnok poskytuje rýchly spôsob prístupu k dokumentácii nainštalovaných doplnkov.

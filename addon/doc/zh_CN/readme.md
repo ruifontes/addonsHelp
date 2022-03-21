@@ -2,9 +2,9 @@
 
 ## 简介 ##
 * 作者: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
-* 更新日期 31/05/2021
+* 更新日期 21/03/2022
 * 下载 [稳定版][1]
-* 插件兼容版本: NVDA 2017.3 至 2021.1
+* 插件兼容版本: NVDA 2017.3及以后
 
 ## 介绍 ##
 此插件提供了一种快速访问已安装的插件文档的方式。
