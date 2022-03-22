@@ -4,6 +4,7 @@
 
 # import the necessary modules.
 import globalPluginHandler
+import globalVars
 import inputCore
 import addonHandler
 import gui
@@ -162,3 +163,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		#. Translators: Title of the HTML message.
 		_("Add-ons documentation"),
 		True)
+
+# Avoid use on secure screens
+if globalVars.appArgs.secure:
+	# Override the global plugin to disable it.
+	GlobalPlugin = globalPluginHandler.GlobalPlugin
+
