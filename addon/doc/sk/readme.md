@@ -2,7 +2,7 @@
 
 ## Informácie ##
 * Autory: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of, James Scholes
-* Aktualizované 21/03/2022
+* Aktualizované 05/03/2023
 * Stiahnúť [stabilnú verziu][1]
 * NVDA kompatibilita: 2017.3 A ĎALŠIE
 

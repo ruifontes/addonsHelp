@@ -2,7 +2,7 @@
 
 ## Informations ##
 * Auteurs : Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel et la collaboration de James Scholes
-* Mis à jour le 21/03/2022
+* Mis à jour le 05/03/2023
 * Télécharger : [version stable][1]
 * Compatibilité : NVDA 2017.2 et au-delà
 

@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: addonsHelp\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2019-05-17 01:03+1000\n"
-"PO-Revision-Date: 2019-12-24 16:08+0000\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2019-04-26 17:05+0100\n"
+"PO-Revision-Date: 2023-02-26 02:03+0000\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -16,52 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#. . Translators: Label of our first sub-menu.
+#. Translators: Label of our first sub-menu.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:30
 msgid "Running add-ons &documentation"
 msgstr "Käytössä olevien lisäosien &ohjeet"
 
-#. . Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+#. Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:38
 msgid "Add-ons &commands"
 msgstr "Lisäosien &komennot"
 
-#. . Translators: Displays the description of the commands contained in each installed add-on.
+#. Translators: Displays the description of the commands contained in each installed add-on.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:40
 msgid "Description of the scripts contained in each add-on"
 msgstr "Kuvaus kunkin lisäosan komennoista"
 
-#. . Translators: Label of our second sub-menu.
+#. Translators: Label of our second sub-menu.
+#: globalPlugins/addonsHelp/__init__.py:55
 msgid "Disabled add-o&ns documentation"
 msgstr "Käytöstä poistettujen lisäosie&n ohjeet"
 
-#, python-brace-format
-msgid "{main} ({source})"
-msgstr "{main} ({source})"
-
-#. . Translators: Message to inform there are no command assigned.
+#. Translators: Message to inform there are no command assigned.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:121
 msgid "Not assigned to gesture or part of layered commands"
-msgstr "Syötekomentoa tai komentokerroksen komentoa ei määritetty"
+msgstr "Näppäinkomentoa tai komentokerroksen komentoa ei määritetty"
 
-#. . Translators: Name of the list.
+#. Translators: Name of the list.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:154
 msgid "List of commands for running add-ons"
 msgstr "Luettelo käytössä olevien lisäosien komennoista"
 
-#. . Translators: The title of the column containing the documentation of each of the scripts.
+#. Translators: The title of the column containing the documentation of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:158
 msgid "Documentation"
 msgstr "Ohje"
 
-#. . Translators: The title of the column containing the command of each of the scripts.
+#. Translators: The title of the column containing the command of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:161
 msgid "Gesture"
-msgstr "Syötekomento"
+msgstr "Näppäinkomento"
 
-#. . Translators: Title of the HTML message.
-#. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
+#. Translators: Title of the HTML message.
+#: addonsHelp/buildVars.py:17
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:169
 msgid "Add-ons documentation"
 msgstr "Lisäosan ohje"
 
 #. Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
+#: addonsHelp/addon/installTasks.py:16
 msgid ""
 "You have installed the addonsHelp-1.0 add-on which is incompatible with this "
 "one. The new name of this add-on is addonsHelp. Click OK to update it."
@@ -70,11 +76,12 @@ msgstr ""
 "version kanssa. Lisäosan uusi nimi on addonsHelp. Päivitä painamalla OK."
 
 #. Translators: The title of the dialogbox.
+#: addonsHelp/addon/installTasks.py:18
 msgid "Update confirmation"
 msgstr "Päivitysvahvistus"
 
-#. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: addonsHelp/buildVars.py:20
 msgid ""
 "This add-on provides a quick way to access documentation for the add-ons you "
 "have installed, creating, in the NVDA Help menu, two  sub-menus. One, called "
@@ -87,3 +94,7 @@ msgstr ""
 "lisäosien ohjeet\", josta pääsee lukemaan käytössä olevien lisäosien ohjeita "
 "sekä niiden komentoja. Toinen alavalikko on \"Käytöstä poistettujen "
 "lisäosien ohjeet\", jossa näkyvät käytöstä poistetut lisäosat."
+
+#, python-brace-format
+#~ msgid "{main} ({source})"
+#~ msgstr "{main} ({source})"

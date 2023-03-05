@@ -2,7 +2,7 @@
 
 ## Tiedot ##
 * Tekijät: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel sekä avustajina James Scholes
-* Päivitetty 21/03/2022
+* Päivitetty 05/03/2023
 * Lataa [vakaa versio][1]
 * Yhteensopivuus: NVDA 2017.3 ja sen jälkeen
 

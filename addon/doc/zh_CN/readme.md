@@ -2,7 +2,7 @@
 
 ## 简介 ##
 * 作者: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
-* 更新日期 21/03/2022
+* 更新日期 05/03/2023
 * 下载 [稳定版][1]
 * 插件兼容版本: NVDA 2017.3及以后
 

@@ -2,7 +2,7 @@
 
 ## Informații ##
 * Autori: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel și colaboratori și James Scholes
-* Actualizat pe 21/03/2022
+* Actualizat pe 05/03/2023
 * Descărcați [versiunea stabilă][1]
 * Compatibilitate: NVDA 2017.3 și mai departe
 

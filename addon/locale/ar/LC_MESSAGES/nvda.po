@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the addonsHelp package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: addonsHelp 2.0\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2019-04-26 17:05+0100\n"
+"PO-Revision-Date: 2023-02-26 01:58+0000\n"
+"Last-Translator: Hatoon <h.felemban@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Translators: Label of our first sub-menu.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:30
+msgid "Running add-ons &documentation"
+msgstr "ملفا&ت المساعدة الخاصة بالإضافات المفعَّلة"
+
+#. Translators: Label of the sub-menu to view the commands descriptions of the installed add-ons.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:38
+msgid "Add-ons &commands"
+msgstr "أوامر الإضافات &البرمجية"
+
+#. Translators: Displays the description of the commands contained in each installed add-on.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:40
+msgid "Description of the scripts contained in each add-on"
+msgstr "وصفُ الأوامر التي تتضمنها كل إضافة"
+
+#. Translators: Label of our second sub-menu.
+#: globalPlugins/addonsHelp/__init__.py:55
+msgid "Disabled add-o&ns documentation"
+msgstr "ملفات المساعدة الخاصة بالإضافات المعطَّلة"
+
+#. Translators: Message to inform there are no command assigned.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:121
+msgid "Not assigned to gesture or part of layered commands"
+msgstr "لم يتم تعيينه لإيماءة أو جزء من أوامر ذات طبقات"
+
+#. Translators: Name of the list.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:154
+msgid "List of commands for running add-ons"
+msgstr "قائمةُ الأوامر الخاصة بالإضافات المفعَّلة"
+
+#. Translators: The title of the column containing the documentation of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:158
+msgid "Documentation"
+msgstr "ملفات المساعدة"
+
+#. Translators: The title of the column containing the command of each of the scripts.
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:161
+msgid "Gesture"
+msgstr "مفتاح اختصار"
+
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#. Translators: Title of the HTML message.
+#: addonsHelp/buildVars.py:17
+#: addonsHelp/addon/globalPlugins/addonsHelp/__init__.py:169
+msgid "Add-ons documentation"
+msgstr "ملفات المساعدة الخاصة بالإضافات البرمجية"
+
+#. Translators: A message informing the user that he has installed an old version that contains a space rather than an underscore.
+#: addonsHelp/addon/installTasks.py:16
+msgid ""
+"You have installed the addonsHelp-1.0 add-on which is incompatible with this "
+"one. The new name of this add-on is addonsHelp. Click OK to update it."
+msgstr ""
+"إضافة addonsHelp-1.0  مثبّتة لديك، وههي متوافقة ع هذه الإضافة. الاسم الجديد لهذه "
+"الإضافة هو addonsHelp-1.0 . اضغط موافق لتحديثها."
+
+#. Translators: The title of the dialogbox.
+#: addonsHelp/addon/installTasks.py:18
+msgid "Update confirmation"
+msgstr "تأكيد التحديث"
+
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: addonsHelp/buildVars.py:20
+msgid ""
+"This add-on provides a quick way to access documentation for the add-ons you "
+"have installed, creating, in the NVDA Help menu, two  sub-menus. One, called "
+"\"Running add-ons documentation\", grouping the documentation and a list of "
+"commands for running add-ons, and another sub-menu called \"Disabled add-ons "
+"documentation\",  where are listed the disabled add-ons."
+msgstr ""
+"تسهّلُ هذه الإضافة الوصول إلى ملفات المساعدة وتعليمات الاستخدام الخاصة بالإضافات "
+"البرمجية المثبَّتة لديك، وهي تنشئُ قائمتين فرعيتين ضمن قائمة المساعدة الخاصة ب "
+"NVDA، الأولى \"ملفات المساعدة الخاصة بالإضافات المفعَّلة\"، تجمع ملفات التعليمات "
+"وقوائم الأوامر الخاصة بالإضافات العاملة. والثانية \"ملفات المساعدة الخاصة "
+"بالإضافات المعطَّلة\" تتضمن ما يخص الإضافات المعطَّلة."
+
+#, python-brace-format
+#~ msgid "{main} ({source})"
+#~ msgstr "{main} ({source})"

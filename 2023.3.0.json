@@ -1,0 +1,29 @@
+{
+	"addonId": "addonsHelp",
+	"displayName": "Add-ons documentation",
+	"URL": "https://github.com/ruifontes/addonsHelp/releases/download/2023.03/addonsHelp-2023.03.nvda-addon",
+	"description": "This add-on provides a quick way to access documentation for the add-ons you have installed, creating, in the NVDA Help menu, two  sub-menus. One, called \"Running add-ons documentation\", grouping the documentation and a list of commands for running add-ons, and another sub-menu called \"Disabled add-ons documentation\",  listing the disabled add-ons documentation.",
+	"sha256": "62f01700411d1f585f71576dae019e88ffbee898a054a86c319bf096d4c7f970",
+	"homepage": "https://github.com/ruifontes/addonsHelp",
+	"addonVersionName": "2023.03",
+	"addonVersionNumber": {
+		"major": 2023,
+		"minor": 3,
+		"patch": 0
+	},
+	"minNVDAVersion": {
+		"major": 2017,
+		"minor": 3,
+		"patch": 0
+	},
+	"lastTestedVersion": {
+		"major": 2023,
+		"minor": 1,
+		"patch": 0
+	},
+	"channel": "stable",
+	"publisher": "Rui Fontes",
+	"sourceURL": "https://github.com/ruifontes/addonsHelp",
+	"license": "GPL 2",
+	"licenseURL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+}

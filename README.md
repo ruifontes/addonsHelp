@@ -2,9 +2,9 @@
 
 ## Informations ##
 * Authors: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
-* Updated in 21/03/2022
+* Updated in 25/03/2023
 * Download [stable version][1]
-* Compatibility: NVDA version 2017.2 to 2021.1
+* Compatibility: NVDA version 2017.3 and beyond
 
 ## Presentation ##
 This add-on provides a quick way to access documentation for the add-ons you have installed.
@@ -12,8 +12,16 @@ It creates, in the NVDA Help menu, two  sub-menus.
 One, called "Running add-ons documentation", groups the documentation for each add-on and make available  a list of commands for all running add-ons, with a table for each add-on.
 The other sub-menu, called "Disabled add-ons documentation",  lists the disabled add-ons, gaving access to its documentation.
 Please, remember that the Synth and Braille drivers add-ons will not appear in any of the above categories.
+Note that you also can access the add-ons documentation through the Add-ons manager in NVDA, Tools menu. Here you have also the information about the state of an add-on.
+Also remember that you can access the NVDA and add-ons commands in the Input gestures dialog. However, in this dialog the add-ons commands are not grouped and you can not find a command containing "windows", by instance...
 
 ## Changes ##
+
+### Version 2023.02 ###
+* Adaptation to NVDA 2023.1
+
+### Version 2022.03 ###
+* Adaptation to NVDA 2022.1
 
 ### Version 21.05 ###
 * Adaptation to NVDA 2021.1

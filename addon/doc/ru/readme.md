@@ -2,7 +2,7 @@
 
 ## Информация ##
 * Авторы: Rui Fontes, Zougane, Remy, Abdel and colaboration of, among others, Ângelo Abrantes and James Scholes
-* Обновлено 21/03/2022
+* Обновлено 05/03/2023
 * Загрузить [стабильную версию][1]
 * Совместимость: NVDA версии 2017.2 до 2021.1
 
