@@ -2,7 +2,7 @@
 
 ## Informații ##
 * Autori: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel și colaboratori și James Scholes
-* Actualizat pe 05/03/2023
+* Actualizat pe 10/03/2023
 * Descărcați [versiunea stabilă][1]
 * Compatibilitate: NVDA 2017.3 și mai departe
 
@@ -44,4 +44,4 @@ De asemenea, rețineți că puteți accesa comenzile NVDA și ale suplimentelor 
 ### Versiunea 1.0 ###
 * Versiunea inițială de Zougane, Remy și Abdel actualizată să fie compatibilă cu NVDA 2019.1.
 
-[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon

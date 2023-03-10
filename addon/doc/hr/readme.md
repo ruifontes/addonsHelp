@@ -2,7 +2,7 @@
 
 ## Informacije ##
 * Autori: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel i suradnja s James Scholes
-* Aktualizirano 05. 03. 2023.
+* Aktualizirano 10. 03. 2023.
 * Preuzmi [stabilnu verziju][1]
 * Kompatibilnost: NVDA 2017.2 i novije verzije
 
@@ -41,4 +41,4 @@ Ovaj dodatak omogućuje brzi pristup dokumentaciji za instalirane dodatke. U NVD
 ### Verzija 1.0 ###
 * Prvo izdanje Zougane, Remy i Abdel su nadogradili da bude kopatibilan s NVDA 2019.1.
 
-[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon

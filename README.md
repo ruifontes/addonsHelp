@@ -2,9 +2,9 @@
 
 ## Informations ##
 * Authors: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
-* Updated in 25/03/2023
+* Updated in 10/03/2023
 * Download [stable version][1]
-* Compatibility: NVDA version 2017.3 and beyond
+* Compatibility: NVDA version 2019.3 and beyond
 
 ## Presentation ##
 This add-on provides a quick way to access documentation for the add-ons you have installed.
@@ -50,4 +50,4 @@ Also remember that you can access the NVDA and add-ons commands in the Input ges
 ### Version 1.0 ###
 * Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
-[1]: https://addons.nvda-project.org/files/get.php?file=addonshelp
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon
