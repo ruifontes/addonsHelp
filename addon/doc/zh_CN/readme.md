@@ -4,7 +4,7 @@
 * 作者: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
 * 更新日期 10/03/2023
 * 下载 [稳定版][1]
-* 插件兼容版本: NVDA 2017.3及以后
+* 插件兼容版本: NVDA 2019.3及以后
 
 ## 介绍 ##
 此插件提供了一种快速访问已安装的插件文档的方式。
@@ -41,4 +41,4 @@
 ### 版1.0 ###
 * 最初发布由Zougane，雷米和阿卜杜勒更新，以兼容NVDA 2019.1。
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.09.21/addonsHelp-2023.09.21.nvda-addon

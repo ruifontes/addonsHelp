@@ -4,7 +4,7 @@
 * Autory: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of, James Scholes
 * Aktualizované 10/03/2023
 * Stiahnúť [stabilnú verziu][1]
-* NVDA kompatibilita: 2017.3 A ĎALŠIE
+* NVDA kompatibilita: 2019.3 A ĎALŠIE
 
 ## Prezentácia ##
 Tento doplnok poskytuje rýchly spôsob prístupu k dokumentácii nainštalovaných doplnkov.
@@ -43,4 +43,4 @@ Pamätajte tiež, že môžete pristupovať k príkazom NVDA a doplnkom v dialó
 ### Verzia 1.0 ###
 * Prvé vydanie vytvorili Zoudane, Rémy a Addel, aktualizované na NVDA kompatibilita 2019.1. 
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.09.21/addonsHelp-2023.09.21.nvda-addon

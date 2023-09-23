@@ -4,7 +4,7 @@
 * Autores: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel e colaboracións de James Scholes
 * Actualizado o 10/03/2023
 * Descargar [versión estable][1]
-* compatibilidade: NVDA 2017.3 e máis aló
+* compatibilidade: NVDA 2019.3 e máis aló
 
 ## Presentación ##
 Este complemento proporciona un método rápido para acceder á documentación dos complementos que tes instalados. 
@@ -44,4 +44,4 @@ Lembra tamén que podes acceder aos atallos do NVDA e os complementos no diálog
 ### Versión 1.0 ###
 * Versión inicial de Zougane, Rémy e Abdel actualizada para que sexa compatible con NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.09.21/addonsHelp-2023.09.21.nvda-addon

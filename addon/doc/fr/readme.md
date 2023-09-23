@@ -4,7 +4,7 @@
 * Auteurs : Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel et la collaboration de James Scholes
 * Mis à jour le 10/03/2023
 * Télécharger : [version stable][1]
-* Compatibilité : NVDA 2017.2 et au-delà
+* Compatibilité : NVDA 2019.3 et au-delà
 
 ## Présentation ##
 Cette extension fournit un moyen rapide d'accéder à la documentation des extensions que vous avez installées.
@@ -44,4 +44,4 @@ N'oubliez pas non plus que vous pouvez accéder aux commandes NVDA et à celles 
 ### Version 1.0 ###
 * Première version par Abdel, Zougane et Remy, mise à jour pour être compatible avec NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.09.21/addonsHelp-2023.09.21.nvda-addon

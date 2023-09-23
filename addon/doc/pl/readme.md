@@ -4,7 +4,7 @@
 * Autorzy: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel i współpraca z James Scholes
 * Zaktualizowano 10/03/2023
 * Pobierz [Wersja stabilna][1]
-* Zgodność: NVDA 2017.3 I dalej.
+* Zgodność: NVDA 2019.3 I dalej.
 
 ## Opis ##
 Ten dodatek dostarcza dokumentację dla zainstalowanych dodatków, tworząc w meni pomoc, dwóch meni rozwijanych.
@@ -42,4 +42,4 @@ Także zapamiętajcie, że do poleceń NVDA, jak i zarówno dodatków można si�
 ### Wersja 1.0 ###
 * Wersja pierwotna przez Zougane, Remy i Abdel zaktualizowana dla zgodności z wersją NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.09.21/addonsHelp-2023.09.21.nvda-addon

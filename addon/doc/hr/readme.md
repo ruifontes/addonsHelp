@@ -4,7 +4,7 @@
 * Autori: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel i suradnja s James Scholes
 * Aktualizirano 10. 03. 2023.
 * Preuzmi [stabilnu verziju][1]
-* Kompatibilnost: NVDA 2017.2 i novije verzije
+* Kompatibilnost: NVDA 2019.3 i novije verzije
 
 ## Objašnjenje ##
 Ovaj dodatak omogućuje brzi pristup dokumentaciji za instalirane dodatke. U NVDA izborniku Pomoć prikazuje dva podizbornika. Prvi se zove „Pokretanje dokumentacije dodataka”, koji grupira dokumentaciju dodataka i sadrži popis naredbi za pokretanje dodataka. Drugi podizbornik se zove „Dokumentacija isključenih dodataka”, koji sadrži popis isključenih dodataka. Napomena: dodaci za pokretačke programe govornih jedinica i brajičnog retka se neće prikazati u bilo kojoj od gore navedenih kategorija. Dokumentaciji dodataka je moguće pristupiti i putem NVDA izbornika Alati. Ovdje se prikazuju i informacije o stanju dodatka. NVDA-u i naredbama dodataka je moguće pristupiti i u dijalogu za unos gesta. Međutim, u ovom dijalogu naredbe dodataka nisu grupirane i nije moguće pronaći naredbu koja npr. sadrži riječ „windows” …
@@ -41,4 +41,4 @@ Ovaj dodatak omogućuje brzi pristup dokumentaciji za instalirane dodatke. U NVD
 ### Verzija 1.0 ###
 * Prvo izdanje Zougane, Remy i Abdel su nadogradili da bude kopatibilan s NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.03.10/addonsHelp-2023.03.10.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.09.21/addonsHelp-2023.09.21.nvda-addon
