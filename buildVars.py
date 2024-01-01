@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This add-on provides a quick way to access documentation for the add-ons you have installed, creating, in the NVDA Help menu, two  sub-menus. One, called "Running add-ons documentation", grouping the documentation and a list of commands for running add-ons, and another sub-menu called "Disabled add-ons documentation",  listing the disabled add-ons documentation."""),
 	# version
-	"addon_version": "2023.09.21",
+	"addon_version": "2024.01.01",
 	# Author(s)
 	"addon_author": "Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com>, Zougane, Remy and Abdel",
 	# URL for the add-on documentation support

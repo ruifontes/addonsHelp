@@ -2,7 +2,7 @@
 
 ## Информация ##
 * Авторы: Rui Fontes, Zougane, Remy, Abdel and colaboration of, among others, Ângelo Abrantes and James Scholes
-* Обновлено 10/03/2023
+* Обновлено 01/01/2024
 * Загрузить [стабильную версию][1]
 * Совместимость: NVDA версии 2019.3 до 2024.1
 
@@ -42,4 +42,4 @@
 ### Версия 1.0 ###
 * Начальная версия от Zougane, Remy и Abdel обновлена для совместимости с NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2023.09.21/addonsHelp-2023.09.21.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.01.01/addonsHelp-2024.01.01.nvda-addon
