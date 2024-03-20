@@ -3,13 +3,13 @@
 	"displayName": "Add-ons documentation",
 	"URL": "",
 	"description": "This add-on provides a quick way to access documentation for the add-ons you have installed, creating, in the NVDA Help menu, two  sub-menus. One, called \"Running add-ons documentation\", grouping the documentation and a list of commands for running add-ons, and another sub-menu called \"Disabled add-ons documentation\",  listing the disabled add-ons documentation.",
-	"sha256": "5c617e9af923bca9b2b87fbe1c60cff81dad25749d6025f2d1c01754e8866da3",
+	"sha256": "7c151abad0544157872f9247641db926ecfd7d0a2ac10703f898bc040b544ad6",
 	"homepage": "https://github.com/ruifontes/addonsHelp",
-	"addonVersionName": "2024.01.01",
+	"addonVersionName": "2024.03.20",
 	"addonVersionNumber": {
 		"major": 2024,
-		"minor": 1,
-		"patch": 1
+		"minor": 3,
+		"patch": 20
 	},
 	"minNVDAVersion": {
 		"major": 2019,

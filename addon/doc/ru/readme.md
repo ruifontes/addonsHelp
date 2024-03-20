@@ -42,4 +42,4 @@
 ### Версия 1.0 ###
 * Начальная версия от Zougane, Remy и Abdel обновлена для совместимости с NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.01.01/addonsHelp-2024.01.01.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon

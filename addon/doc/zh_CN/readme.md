@@ -2,7 +2,7 @@
 
 ## 简介 ##
 * 作者: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and colaboration of James Scholes
-* 更新日期 01/01/2024
+* 更新日期 20/03/2024
 * 下载 [稳定版][1]
 * 插件兼容版本: NVDA 2019.3及以后
 
@@ -41,4 +41,4 @@
 ### 版1.0 ###
 * 最初发布由Zougane，雷米和阿卜杜勒更新，以兼容NVDA 2019.1。
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.01.01/addonsHelp-2024.01.01.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon

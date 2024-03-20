@@ -2,7 +2,7 @@
 
 ## Tiedot ##
 * Tekijät: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel sekä avustajina James Scholes
-* Päivitetty 01/01/2024
+* Päivitetty 20/03/2024
 * Lataa [vakaa versio][1]
 * Yhteensopivuus: NVDA 2019.3 ja sen jälkeen
 
@@ -45,4 +45,4 @@ Lisäosien komentoja ei ole kuitenkaan ryhmitelty eikä "Windows"-näppäimen si
 ### Versio 1.0 ###
 * Zouganen tekemä ensimmäinen versio. Remy ja Abdel päivittivät yhteensopivaksi NVDA 2019.1:n kanssa.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.01.01/addonsHelp-2024.01.01.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon

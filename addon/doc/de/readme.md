@@ -3,7 +3,7 @@
 
 ## Informationen ##
 * Autoren: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel and die Mitarbeit von James Scholes
-* Aktualisiert am 01.01.2024
+* Aktualisiert am 20.03.2024
 * [Stabile Version herunterladen][1]
 * Kompatibilität: NVDA 2019.3 und neuer
 
@@ -49,4 +49,4 @@ Diese Erweiterung bietet einen schnellen Zugriff auf die Dokumentationen install
 ### Version 1.0 ###
 * Erstveröffentlichung durch Zougane, Rémy und Abdel, aktualisiert und kompatibel gemacht für NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.01.01/addonsHelp-2024.01.01.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon

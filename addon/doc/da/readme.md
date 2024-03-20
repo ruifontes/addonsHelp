@@ -1,7 +1,7 @@
 ﻿# Dokumentation for tilføjelser #
 ## Information ##
 * Forfattere: Rui Fontes, Ângelo Abrantes, Zougane, Remy, Abdel og i samarbejde med James Scholes
-* Opdateret i 01/01/2024
+* Opdateret i 20/03/2024
 * Download [stabil version][1]
 * Kompatibilitet: Kompatibilitet: NVDA 2019.3 og senere
 
@@ -38,4 +38,4 @@ Denne tilføjelse giver dig hurtig adgang til dokumentation for de tilføjelsesp
 ### Version 1.0 ###
 # Første udgivelse af Zougane, Remy og Abdel opdateret for at være kompatibel med NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.01.01/addonsHelp-2024.01.01.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon
