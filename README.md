@@ -15,7 +15,13 @@ Please, remember that the Synth and Braille drivers add-ons will not appear in a
 Note that you also can access the add-ons documentation through the Add-ons manager in NVDA, Tools menu. Here you have also the information about the state of an add-on.
 Also remember that you can access the NVDA and add-ons commands in the Input gestures dialog. However, in this dialog the add-ons commands are not grouped and you can not find a command containing "windows", by instance...
 
-## Changes ##
+## Changes
+
+### Version 2025.06.11
+* Adaptation to NVDA 2025.1
+
+### Version 2024.03.20
+* Adaptation to NVDA 2024.1
 
 ### Version 2023.02 ###
 * Adaptation to NVDA 2023.1
@@ -50,4 +56,4 @@ Also remember that you can access the NVDA and add-ons commands in the Input ges
 ### Version 1.0 ###
 * Initial release of Zougane, Remy and Abdel updated to be compatible with NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2025.06.11/addonsHelp-2025.06.11.nvda-addon

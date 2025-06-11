@@ -44,4 +44,4 @@ N'oubliez pas non plus que vous pouvez accéder aux commandes NVDA et à celles 
 ### Version 1.0 ###
 * Première version par Abdel, Zougane et Remy, mise à jour pour être compatible avec NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2025.06.11/addonsHelp-2025.06.11.nvda-addon

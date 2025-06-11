@@ -17,6 +17,18 @@ Lembre-se que também pode aceder aos comandos do NVDA e dos extras no diálogo 
 
 ## Alterações ##
 
+### Versão 2025.06.11
+* Adaptação para NVDA 2025.1
+
+### Versão 2024.03.20
+* Adaptação para NVDA 2024.1
+
+### Versão 2023.02
+* Adaptação para NVDA 2023.1
+
+### Versão 2022.03 ###
+* Adaptação para NVDA 2022.1
+
 ### Versão 21.05 ###
 * Adaptação para NVDA 2021.1
 
@@ -44,4 +56,4 @@ Lembre-se que também pode aceder aos comandos do NVDA e dos extras no diálogo 
 ### Versão 1.0 ###
 *	 Versão inicial de Zougane, Rémy e Abdel actualizada para ser compatível com NVDA 2019.1.
 
-[1]: https://github.com/ruifontes/addonsHelp/releases/download/2024.03.20/addonsHelp-2024.03.20.nvda-addon
+[1]: https://github.com/ruifontes/addonsHelp/releases/download/2025.06.11/addonsHelp-2025.06.11.nvda-addon
